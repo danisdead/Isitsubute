@@ -59,9 +59,9 @@
 .slide-1 .bigtext {
 	/*top: 42% !important;*/
 	top: 32% !important;
-	width: 100%;
 	text-align: center;
 	width: 500px;
+	height: 500px;
 }
 
 .slide-2 .blacktext {

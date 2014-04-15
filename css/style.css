@@ -19,44 +19,48 @@ Author: Samuel Dalusung
 }
 
 body {
-width:100%;
-margin:0;
-padding:0;
-background-color: #000D32;
+	width:100%;
+	margin:0;
+	padding:0;
+	/*background-color: #000D32;*/
 }
 
 h1 {
-font-family:'Fairview';
-font-weight:400;
-font-size:55px;
-text-align:center;
-color:#fff;
-margin:0;
-padding:0;
+	font-family:'Fairview';
+	font-weight:400;
+	font-size:55px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
 }
 
 h2 {
-font-family:'Fairview';
-font-weight:400;
-font-size:40px;
-text-align:center;
-color:#fff;
-margin:0;
-padding:0;
+	font-family:'Fairview';
+	font-weight:400;
+	font-size:40px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
 }
 
 h3 {
-font-family:'Fairview';
-font-weight:400;
-font-size:16px;
-text-align:center;
-z-index:1;
-position:relative;
-margin:5px 0;
-padding:0;
+	font-family:'Fairview';
+	font-weight:400;
+	font-size:16px;
+	text-align:center;
+	z-index:1;
+	position:relative;
+	margin:5px 0;
+	padding:0;
 }
 header{
 	z-index: 1000;
+}
+footer{
+	background: url(../img/FOOTER_PATTERN.png) repeat-x;
+	height: 214px;
 }
 .footer-list{
 	color:red;
@@ -91,17 +95,18 @@ header{
 .smallcaps{
 	font-family:'Fairview Small Caps';
 }
+
 #copyright{
 	color:white;
 	font-size:22px;
 	margin-bottom: 16px;
+	float:right;
 }
 
 #copyright a {
 	text-decoration:none;
 	color:#fff;
 }
-
 
 .center {
 margin:0 auto;
@@ -116,25 +121,7 @@ margin:0 auto;
 }
 
 .clear {
-clear:both;
-}
-
-a.lpanel {
-	float:left;
-	color:#e1e1e1;
-	font-size:12px;
-	font-family:'Fairview';
-	text-decoration:none;
-	margin:7px 11px;
-}
-
-a.rpanel {
-	float:right;
-	color:#e1e1e1;
-	font-size:12px;
-	font-family:'Fairview';
-	text-decoration:none;
-	margin:7px 11px;
+	clear:both;
 }
 
 #header {
@@ -304,4 +291,11 @@ padding:250px 0;
 
 a.lpanel:hover,a.rpanel:hover {
 color:#fff;
+}
+
+#facebook{
+	height:30px;
+	width:30px;
+	background: url('../img/fb_1.png') no-repeat;
+	float:right;
 }

@@ -6,11 +6,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
        <title>Clamato</title>
 	   <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
-	   <script src="js/lightbox.js"></script>
 		<!-- bootstrap style sheet -->
 		<link rel="stylesheet" href="slider/assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="css/lightbox.css">
 		<!-- main style -->
 		<link rel="stylesheet" type="text/css" href="slider/assets/css/style.css" media="all">
 		<!-- Base MasterSlider style sheet -->
@@ -91,9 +89,9 @@ $(document).ready(function() {
 		<li><a href="#slide3" title="Next Section">Productos</a></li>
 		<li><div class="divider"></div></li>
 		<li><a  href="#slide4" title="Next Section">Promociones</a></li>
-		<li><div style="width:50px"></div></li>
+		<li><div style="width:100px"></div></li>
 		<li><a  href="#">--FB--</a></li>
-		<li><a  href="#">--TW--</a></li>
+		<!--<li><a  href="#">--TW--</a></li>-->
 	</ul>
 </nav>
 </div>
@@ -113,14 +111,21 @@ $(document).ready(function() {
 				        >
 				        	&iexcl;QUE COMIENCE LA FIESTA!
 				        </h3>
-						
 						<video data-autopause="false" data-mute="true" data-loop="true" data-fill-mode="fill">
 				            <!--<source src="slider/assets/video/video.mp4" type="video/mp4"/>
 							<source src="slider/assets/video/video.webm" type="video/webm"/>
 							<source src="slider/assets/video/video.ogv" type="video/ogg"/>-->
 							<source src="slider/assets/video/fiesta.mov">
 				        </video>
-
+				        <img class="ms-layer" alt="lorem ipsum dolor sit" style="right:10px; top:-300px;"
+						     data-type          = "image"
+						     data-effect        = "right(90)"
+						     data-duration      = "800"
+						     data-ease          = "easeOutCubic"
+						  
+						     src="slider/masterslider/blank.gif"
+						     data-src="img/snowflakesbg.png"
+						/>
 				        <img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/> 
 
 				    </div>
@@ -278,7 +283,7 @@ $(document).ready(function() {
 					</ul>
 			</div>
 			<div id="right">
-				<a href="#">--FB--</a> <a href="#">--TW--</a>
+				<a href="#">--FB--</a> <!--<a href="#">--TW--</a>-->
 				<div id="copyright"><span class="smallcaps">GRUPO PE&Ntilde;A FIEL 2014 &copy;.</span> Todos los derechos reservados.</div>
 			</div>
 		</div>

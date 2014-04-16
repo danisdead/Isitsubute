@@ -229,6 +229,11 @@ color:#fff;
 	float:right;
 	width:50%;
 }
+.boton_receta{
+	height:50px;
+	width:100px;
+	background-color: red;
+}
 
 button.btn-know {
 	text-align:center;

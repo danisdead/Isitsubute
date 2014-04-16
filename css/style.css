@@ -269,7 +269,7 @@ width:100%;
 }
 
 #slide1 {
-background:url(../img/slide1.jpg) 50% 0 no-repeat fixed;
+background-color: #031D4E;
 color:#fff;
 height:600px;
 background-size:cover;

@@ -20,7 +20,7 @@
 		<!-- google font Lato -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
 		<!-- jQuery -->
-		<script src="slider/masterslider/jquery-1.10.2.min.js"></script>
+		<!--<script src="slider/masterslider/jquery-1.10.2.min.js"></script>-->
 		<script src="slider/masterslider/jquery.easing.min.js"></script>
 		<!-- Master Slider -->
 		<script src="slider/masterslider/masterslider.min.js"></script>
@@ -64,8 +64,33 @@ $(document).ready(function() {
       }
     }
   });
+	
+$('#boton_cocteles').click(function(){
+	$(".menu_cocteles").slideToggle(function(){
+        $(this).animate({height:0},200);
+    },function(){
+        $(this).animate({height:35},200);
+    });
+});
+
+$('#boton_bebidas').click(function(){
+	$(".menu_bebidas").slideToggle(function(){
+        $(this).animate({height:0},200);
+    },function(){
+        $(this).animate({height:175},200);
+    });
+});
+
+$('#boton_platillos').click(function(){
+	$(".menu_platillos").slideToggle(function(){
+        $(this).animate({height:0},200);
+    },function(){
+        $(this).animate({height:234},200);
+    });
+});
 
 });
+
 
 
 </script>
@@ -74,7 +99,7 @@ $(document).ready(function() {
  </head> 
 	
 <body>
-  
+ 
 <header id="header">
 <div class="content">
 <div id="logo"></div>
@@ -162,10 +187,35 @@ $(document).ready(function() {
 	
 	
    <div id="slide3">
-   	<input id="cocteles" class="boton_receta example-image" type="button" value="Cocteles">
-   	<input id="bebidas" class="boton_receta example-image" type="button" value="Bebidas">
-   	<input id="platillos" class="boton_receta example-image" type="button" value="Platillos">
-   	<img src="img/Elementos.png" /> 
+   		
+	   	<div id="cocteles">
+	   		<input id="boton_cocteles" class="boton_receta example-image" type="button" value="Cocteles">
+	   		<div class="menu_recetas menu_cocteles">
+		   		<div class="item">Clamachela</div>
+	   		</div>
+	   	</div>
+	   	<div id="bebidas">
+	   		<input id="boton_bebidas" class="boton_receta example-image" type="button" value="Bebidas">
+	   		<div class="menu_recetas menu_bebidas">
+		   		<div class="item">Clamato Preparado</div>
+		   		<div class="item">Clamato Norte&ntilde;o</div>
+		   		<div class="item">Almeja y Lagartija</div>
+		   		<div class="item">Te vas de pinta</div>
+		   		<div class="item">Levanta muertos</div>
+	   		</div>
+	   	</div>   	
+	   	<div id="platillos">
+	   		<input id="boton_platillos" class="boton_receta example-image" type="button" value="Platillos">
+	   		<div class="menu_recetas menu_platillos">
+		   		<div class="item">Clamato Sopa Fr&iacute;a</div>
+		   		<div class="item">Fruti di mare</div>
+		   		<div class="item">Lluvia de Fuego</div>
+		   		<div class="item">Oriental</div>
+		   		<div class="item">Aguachile</div>
+		   		<div class="item">Almejas Puesta de Sol</div>
+	   		</div>
+	   	</div>   	 	   	
+   	
     </div> 
 	
 	

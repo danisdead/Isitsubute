@@ -286,10 +286,11 @@ padding:170px 0 0;
 }
 
 #slide3 {
-	background:url(../img/back_fiesta.png) 20% 0 no-repeat fixed;
+	background:url(../img/fiesta.jpg) no-repeat fixed;
 	height:200px;
 	color:#fff;
-	background-size:cover;
+	/*background-size:cover;*/
+	background-size: 100% 98%;
 	margin:0 auto;
 	padding:250px 0;
 	font-family:'Fairview';
@@ -297,12 +298,12 @@ padding:170px 0 0;
 	font-size: 44px;
 }
 
-#slide3 img{
+/*#slide3 img{
 	width:100%;
 	position: relative;
 	top:-300px;
 
-}
+}*/
 
 .boton_receta{
 	background:url(../img/btn.png) no-repeat;
@@ -317,19 +318,48 @@ padding:170px 0 0;
 #cocteles{
 	position: relative;
 	left:17%;
-	top:10%;
+	top:40%;
+	width: 250px;
+	height: 120px;
+	/*overflow: hidden;*/
+}
+#topbar {
+    background: orange;
+    color: white;
+    height: 65px;
+    text-align:center;
+    position:relative;
+    top:50px;
 }
 #platillos{
 	position: relative;
-	left: 38%;
-top: 27%;
+	left: 65%;
+	top: -15%;
+	width: 250px;
+	height: 65px;
+	/**overflow: hidden;*/
 }
 #bebidas{
 	position: relative;
-	left: 20%;
-top: -10%;
+	left: 38%;
+	top: -15%;
+	width: 250px;
+	height: 65px;
+	/*overflow: hidden;*/
 }
 
+.menu_recetas{
+	background-color: #0054A5;
+	width:150px;
+	display:none;
+}
+
+
+.menu_recetas .item{
+	border-bottom: 1px solid #083E7C;
+	font-size:24px;
+	padding:5px;
+}
 
 #slide4 {
 background:url(../img/Banner_dj.jpg) 50% 0 no-repeat fixed;

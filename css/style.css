@@ -292,13 +292,44 @@ padding:170px 0 0;
 	background-size:cover;
 	margin:0 auto;
 	padding:250px 0;
+	font-family:'Fairview';
+	color:white;
+	font-size: 44px;
 }
 
 #slide3 img{
 	width:100%;
 	position: relative;
 	top:-300px;
+
 }
+
+.boton_receta{
+	background:url(../img/btn.png) no-repeat;
+	background-size:200px 60px;
+	height:60px;
+	width:200px;
+	border:none;
+	color:white;
+	padding-top:5px;
+}
+
+#cocteles{
+	position: relative;
+	left:17%;
+	top:10%;
+}
+#platillos{
+	position: relative;
+	left: 38%;
+top: 27%;
+}
+#bebidas{
+	position: relative;
+	left: 20%;
+top: -10%;
+}
+
 
 #slide4 {
 background:url(../img/Banner_dj.jpg) 50% 0 no-repeat fixed;

@@ -5,11 +5,9 @@
 	   <meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
        <title>Clamato</title>
-	   <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
 		<!-- bootstrap style sheet -->
 		<link rel="stylesheet" href="slider/assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css"/>
-		<link href='http://fonts.googleapis.com/css?family=Economica:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<!-- main style -->
 		<link rel="stylesheet" type="text/css" href="slider/assets/css/style.css" media="all">
 		<!-- Base MasterSlider style sheet -->
@@ -21,6 +19,7 @@
 		<!-- google font Lato -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
 		<!-- jQuery -->
+		<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
 		<!--<script src="slider/masterslider/jquery-1.10.2.min.js"></script>-->
 		<script src="slider/masterslider/jquery.easing.min.js"></script>
 		<!-- Master Slider -->
@@ -129,18 +128,6 @@ $('#boton_platillos').click(function(){
 				<!-- masterslider -->
 				<div class="master-slider ms-skin-default" id="masterslider">
 				    <div class="ms-slide slide-1">
-				    	<img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/> 
-				    	<!--<div class="ms-layer resize"></div>  <ms layer no trae resize!!-->
-				        <img class="ms-layer" alt="lorem ipsum dolor sit" style="right:600px; top:270px; width:440px"
-						     data-type          = "image"
-						     data-effect        = "bottom(800,true)"
-						     data-duration      = "2000"
-						     data-ease          = "easeOutCubic"
-						  	 data-resize		= "true"
-						     src="slider/masterslider/blank.gif"
-						     data-src="img/Clamatos.png" 
-						     
-						/>
 				        <h3 class="ms-layer normal-text-white bigtext" style="top:50%; left: -30px; font-size: 110px;" 
 							data-type="text"
 							data-effect = "right(800,true)"
@@ -149,7 +136,7 @@ $('#boton_platillos').click(function(){
 				        > <!--data-effect="rotate3dtop(70,0,0,180)"-->
 				        	&iexcl;QUE COMIENCE
 				        </h3>
-				        
+				        <br/>
 				        <h2 class="ms-layer normal-text-white bigtext" style="top:130px; left:40px; font-size: 134px;" 
 							data-type="text"
 							data-effect        = "left(800,true)"
@@ -164,10 +151,7 @@ $('#boton_platillos').click(function(){
 							<source src="slider/assets/video/video.ogv" type="video/ogg"/>right:600px; top:270px;-->
 							<source src="slider/assets/video/fiesta.mov">
 				        </video>
-				    </div>
-				    <div class="ms-slide slide-2">
-				    	<img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/> 
-				    	<!--<div class="ms-layer resize"></div>  <ms layer no trae resize!!-->
+				        <!--<div class="ms-layer resize"></div>  <ms layer no trae resize!!-->
 				        <img class="ms-layer" alt="lorem ipsum dolor sit" style="right:600px; top:270px; width:440px"
 						     data-type          = "image"
 						     data-effect        = "bottom(800,true)"
@@ -178,35 +162,18 @@ $('#boton_platillos').click(function(){
 						     data-src="img/Clamatos.png" 
 						     
 						/>
-				        <h3 class="ms-layer normal-text-white bigtext" style="top:50%; left: -30px; font-size: 110px;" 
-							data-type="text"
-							data-effect = "right(800,true)"
-							data-duration="2700"
-							data-ease="easeInOutQuint"
-				        > <!--data-effect="rotate3dtop(70,0,0,180)"-->
-				        	&iexcl;QUE COMIENCE
-				        </h3>
-				        
-				        <h2 class="ms-layer normal-text-white bigtext" style="top:130px; left:40px; font-size: 134px;" 
-							data-type="text"
-							data-effect        = "left(800,true)"
-							data-duration="2750"
-							data-ease="easeInOutQuint"
-				        >
-				        	LA FIESTA!
-				        </h2>
+				        <img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/> 
+
 				    </div>
 				</div>
 				<!-- end of masterslider -->
-				<a href="#slide2" title="Next Section" ><div class="siguiente" style="top: -50px;"></div></a>
 			</div>
 			<!-- end of template -->	
-			
+			<a href="#slide2" title="Next Section" >Siguiente</a>
 		</div> 
     </div> 
 
 	<div id="slide2">
-		<a href="#slide1" title="Next Section" ><div class="anterior"></div></a>
 		<div class="content">
 			<div class="quotes_container">
 		      <img src="img/productos_botones.png" /> 
@@ -217,55 +184,53 @@ $('#boton_platillos').click(function(){
 		      <input type="button" value="" id="vuelve_plus" class="example-image"> 
 		    </div> 
 
-		    
-		    <a href="#slide3" title="Next Section" ><div class="siguiente"></div></a>
+		    <a href="#slide2" title="Next Section" >Anterior</a>
+		    <a href="#slide4" title="Next Section" >Siguiente</a>
 		</div> 
     </div> 
 	
 	
    <div id="slide3">
-   		<a href="#slide2" title="Next Section" ><div class="anterior"></div></a>
-   		<div class="content">
-	   		<div id="cocteles">
-		   		<input id="boton_cocteles" class="boton_receta example-image" type="button" value="Cocteles">
-		   		<div class="menu_recetas menu_cocteles">
-			   		<div class="item">Clamachela</div>
-		   		</div>
-		   	</div>
-		   	<div id="bebidas">
-		   		<input id="boton_bebidas" class="boton_receta example-image" type="button" value="Bebidas">
-		   		<div class="menu_recetas menu_bebidas">
-			   		<div class="item">Clamato Preparado</div>
-			   		<div class="item">Clamato Norte&ntilde;o</div>
-			   		<div class="item">Almeja y Lagartija</div>
-			   		<div class="item">Te vas de pinta</div>
-			   		<div class="item">Levanta muertos</div>
-		   		</div>
-		   	</div>   	
-		   	<div id="platillos">
-		   		<input id="boton_platillos" class="boton_receta example-image" type="button" value="Platillos">
-		   		<div class="menu_recetas menu_platillos">
-			   		<div class="item">Clamato Sopa Fr&iacute;a</div>
-			   		<div class="item">Fruti di mare</div>
-			   		<div class="item">Lluvia de Fuego</div>
-			   		<div class="item">Oriental</div>
-			   		<div class="item">Aguachile</div>
-			   		<div class="item">Almejas Puesta de Sol</div>
-		   		</div>
-		   	</div>   	 	  
-   		</div>
- 	
-   		<a href="#slide4" title="Next Section" ><div class="siguiente_blue"></div></a>
+   		
+	   	<div id="cocteles">
+	   		<input id="boton_cocteles" class="boton_receta example-image" type="button" value="Cocteles">
+	   		<div class="menu_recetas menu_cocteles">
+		   		<div class="item">Clamachela</div>
+	   		</div>
+	   	</div>
+	   	<div id="bebidas">
+	   		<input id="boton_bebidas" class="boton_receta example-image" type="button" value="Bebidas">
+	   		<div class="menu_recetas menu_bebidas">
+		   		<div class="item">Clamato Preparado</div>
+		   		<div class="item">Clamato Norte&ntilde;o</div>
+		   		<div class="item">Almeja y Lagartija</div>
+		   		<div class="item">Te vas de pinta</div>
+		   		<div class="item">Levanta muertos</div>
+	   		</div>
+	   	</div>   	
+	   	<div id="platillos">
+	   		<input id="boton_platillos" class="boton_receta example-image" type="button" value="Platillos">
+	   		<div class="menu_recetas menu_platillos">
+		   		<div class="item">Clamato Sopa Fr&iacute;a</div>
+		   		<div class="item">Fruti di mare</div>
+		   		<div class="item">Lluvia de Fuego</div>
+		   		<div class="item">Oriental</div>
+		   		<div class="item">Aguachile</div>
+		   		<div class="item">Almejas Puesta de Sol</div>
+	   		</div>
+	   	</div>   	 	   	
+   	
     </div> 
 	
 	
 	<div id="slide4">
-		<a href="#slide3" title="Next Section" ><div class="anterior"></div></a>
 		<div class="content">
 			<div class="quotes_container"> 
 				<div style="height:50px"></div>
 		      	<h1>Pr&oacute;ximamente</h1>
 		    </div> 
+		    <a href="#slide2" title="Next Section" >Anterior</a>
+		    <a href="#slide1" title="Next Section" >Volver al principio</a>
 		</div> 
     </div> 
 	<div id="contentOverlay">

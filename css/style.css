@@ -320,7 +320,10 @@ padding:170px 0 0;
 	font-size:24px;
 	padding:5px;
 }
-
+.promo_ver_mas{
+	width: 38%;
+	float: right;
+}
 .promo_texto{
 	width:60%;
 	position: relative;
@@ -346,10 +349,12 @@ padding:170px 0 0;
 	background-color: #EE3E27;
 	color:white;
 	border:none;
-	font-size:44px;
-	padding:3px;
+	font-size:40px;
+	padding:6px;
 	padding-left:25px;
 	padding-right:25px;
+	position: relative;
+left: 83px;
 }
 #slide4 {
 background:url(../img/BANNER_5_1.jpg) 50% 0 no-repeat fixed;

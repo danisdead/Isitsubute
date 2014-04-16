@@ -314,3 +314,43 @@ padding:170px 0 0;
 	background: url('../img/fb_1.png') no-repeat;
 	float:right;
 }
+
+#camaron_plus{
+	position: relative;
+	bottom: 289px;
+	left: 63px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#original_plus{
+	position: relative;
+	bottom: 311px;
+	left: 110px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#ceviche_plus{
+	position: relative;
+	bottom: 311px;
+	left: 192px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#vuelve_plus{
+	position: relative;
+	bottom: 277px;
+	left: 229px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}

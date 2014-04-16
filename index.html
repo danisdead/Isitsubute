@@ -84,9 +84,9 @@ $(document).ready(function() {
 		<li><div style="width:50px"></div></li>
 		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
 		<li><div class="divider"></div></li>
-		<li><a href="#slide2" title="Next Section">Recetas</a></li>
+		<li><a href="#slide2" title="Next Section">Productos</a></li>
 		<li><div class="divider"></div></li>
-		<li><a href="#slide3" title="Next Section">Productos</a></li>
+		<li><a href="#slide3" title="Next Section">Recetas</a></li>
 		<li><div class="divider"></div></li>
 		<li><a  href="#slide4" title="Next Section">Promociones</a></li>
 		<li><div style="width:170px"></div></li>
@@ -105,7 +105,7 @@ $(document).ready(function() {
 				    <div class="ms-slide slide-1">
 				        <h3 class="ms-layer normal-text-white bigtext" style="top:50%; left: -30px; font-size: 110px;" 
 							data-type="text"
-							data-effect        = "right(800,true)"
+							data-effect = "right(800,true)"
 							data-duration="2700"
 							data-ease="easeInOutQuint"
 				        > <!--data-effect="rotate3dtop(70,0,0,180)"-->
@@ -123,10 +123,11 @@ $(document).ready(function() {
 						<video data-autopause="false" data-mute="true" data-loop="true" data-fill-mode="fill">
 				            <!--<source src="slider/assets/video/video.mp4" type="video/mp4"/>
 							<source src="slider/assets/video/video.webm" type="video/webm"/>
-							<source src="slider/assets/video/video.ogv" type="video/ogg"/>-->
+							<source src="slider/assets/video/video.ogv" type="video/ogg"/>right:600px; top:270px;-->
 							<source src="slider/assets/video/fiesta.mov">
 				        </video>
-				        <img class="ms-layer" alt="lorem ipsum dolor sit" style="right:600px; top:270px; width: 440px; "
+				        <!--<div class="ms-layer resize"></div>  <ms layer no trae resize!!-->
+				        <img class="ms-layer" alt="lorem ipsum dolor sit" style="right:600px; top:270px; width:440px"
 						     data-type          = "image"
 						     data-effect        = "bottom(800,true)"
 						     data-duration      = "2000"
@@ -136,7 +137,7 @@ $(document).ready(function() {
 						     data-src="img/Clamatos.png" 
 						     
 						/>
-				        <!--<img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/>--> 
+				        <img src="slider/masterslider/blank.gif" data-src="slider/img/video.jpg" alt="lorem ipsum dolor sit"/> 
 
 				    </div>
 				</div>
@@ -148,29 +149,10 @@ $(document).ready(function() {
     </div> 
 
 	<div id="slide2">
-		<section id="examples" class="examples-section">
-			<div class="container">
-				<div class="image-row">
-					<div class="image-set">
-						<a class="example-image-link" href="img/demopage/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/demopage/thumb-3.jpg" alt=""/></a>
-						<a class="example-image-link" href="img/demopage/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="img/demopage/thumb-4.jpg" alt="" /></a>
-						<a class="example-image-link" href="img/demopage/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="img/demopage/thumb-5.jpg" alt="" /></a>
-						<a class="example-image-link" href="lightbox1.html" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/demopage/thumb-6.jpg" alt="" /></a>
-
-					</div>
-				</div>
-				<a href="#slide3" title="Next Section" >Siguiente</a>
-				<a href="#slide1" title="Next Section" >Anterior</a>
-			</div>
-		</section>
-    </div> 
-	
-	
-   <div id="slide3">
 		<div class="content">
-			   <div class="quotes_container">
-		       <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
-		      <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+			<div class="quotes_container"> 
+		      <img src="img/productos_botones.png" /> 
+		      <h1 class="text">Nuestros Productos</h1>
 		    </div> 
 		    <a href="#slide2" title="Next Section" >Anterior</a>
 		    <a href="#slide4" title="Next Section" >Siguiente</a>
@@ -178,24 +160,29 @@ $(document).ready(function() {
     </div> 
 	
 	
+   <div id="slide3">
+   	<img src="img/Elementos.png" /> 
+    </div> 
+	
+	
 	<div id="slide4">
 		<div class="content">
-              <div class="quotes_container">
-		    <h3 class="quotes">“Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....” </h3>
-		  <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>
-		  <a href="#slide3" title="Next Section" >Anterior</a>
-		  <a href="#slide1" title="Next Section" >Volver al principio</a>
-		</div> 
+			<div class="quotes_container"> 
+				<div style="height:50px"></div>
+		      	<h1>Pr&oacute;ximamente</h1>
+		    </div> 
+		    <a href="#slide2" title="Next Section" >Anterior</a>
+		    <a href="#slide1" title="Next Section" >Volver al principio</a>
 		</div> 
     </div> 
 
     <footer>
     	<div class="content">
-    		<div id="left">
+    		<div id="left" style="width:100%;">
 	    			<ul class="footer-list">
 						<li><a href="#slide1" class="active" title="Next Section" ><span>Home</span></a></li>
-						<li><a href="#slide2" title="Next Section"><span>Recetas</span></a></li>
-						<li><a href="#slide3" title="Next Section"><span>Productos</span></a></li>
+						<li><a href="#slide2" title="Next Section"><span>Productos</span></a></li>
+						<li><a href="#slide3" title="Next Section"><span>Recetas</span></a></li>
 						<li><a  href="#slide4" title="Next Section"><span>Promociones</span></a></li>
 					</ul>
 			</div>

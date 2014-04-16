@@ -6,6 +6,7 @@ Description: Simple Parallax Scrolling Effect
 Author: Samuel Dalusung
 */
 
+
 /*= GENERAL STYLING
 --------------------------------------------------------*/
 @font-face {
@@ -28,7 +29,7 @@ body {
 h1 {
 	font-family:'Fairview';
 	font-weight:400;
-	font-size:55px;
+	font-size:140px;
 	text-align:center;
 	color:#fff;
 	margin:0;
@@ -84,13 +85,28 @@ footer{
 
 #left{
 	float:left;
-	width:100%;
+	width:50%;
+	margin: 0 auto;
 }
 
 #right{
 	float:right;
-	text-align: right;
+	width:50%;
 }
+
+.leftPanel{
+	height:100%;
+	width:40%;
+	float:left;
+}
+
+.rightPanel{
+	height:100%;
+	width:40%;
+	float:right;
+}
+
+
 
 .smallcaps{
 	font-family:'Fairview Small Caps';
@@ -116,6 +132,7 @@ margin:0 auto;
 	font-family:'Fairview';
 	color:white;
 	width:1010px;
+	height:100%;
 	min-width: 1010px;
 	margin:0 auto;
 }
@@ -208,6 +225,10 @@ color:#fff;
 	width:800px;
 	margin:0 auto;
 }
+.quotes_container .text{
+	float:right;
+	width:50%;
+}
 
 button.btn-know {
 	text-align:center;
@@ -257,40 +278,34 @@ padding:80px 0 260px;
 }
 
 #slide2 {
-background-color:#000D32;
-color:#333;
-height:300px;
-overflow:hidden;
-margin:0 auto;
-padding:200px 0;
-}
-
-#slide3 {
-background:url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+background:url(../img/Back_banner.jpg) no-repeat fixed;
 color:#fff;
 height:600px;
 background-size:cover;
 padding:170px 0 0;
 }
 
+#slide3 {
+	background:url(../img/back_fiesta.png) 20% 0 no-repeat fixed;
+	height:200px;
+	color:#fff;
+	background-size:cover;
+	margin:0 auto;
+	padding:250px 0;
+}
+
+#slide3 img{
+	width:100%;
+	position: relative;
+	top:-300px;
+}
+
 #slide4 {
-background-color:#000D32;
-color:#333;
-height:300px;
-padding:200px 0;
-}
-
-#slide5 {
-background:url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-height:200px;
+background:url(../img/Banner_dj.jpg) 50% 0 no-repeat fixed;
 color:#fff;
+height:600px;
 background-size:cover;
-margin:0 auto;
-padding:250px 0;
-}
-
-a.lpanel:hover,a.rpanel:hover {
-color:#fff;
+padding:170px 0 0;
 }
 
 #facebook{

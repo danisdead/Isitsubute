@@ -1,0 +1,407 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+/*@font-face {
+	font-family:'Fairview';
+	src:url(Fairview_Regular.otf);
+}
+
+@font-face {
+	font-family:'Fairview Small Caps';
+	src:url(Fairview_SmallCaps.otf);
+}*/
+
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+	/*background-color: #000D32;*/
+}
+
+h1 {
+	font-family: 'Economica', sans-serif;
+	font-weight:400;
+	font-size:140px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h2 {
+	font-family: 'Economica', sans-serif;
+	font-weight:10;
+	font-size:2px;
+	text-align:center;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+
+h3 {
+	font-family: 'Economica', sans-serif;
+	font-weight:400;
+	font-size:16px;
+	text-align:center;
+	z-index:1;
+	position:relative;
+	margin:5px 0;
+	padding:0;
+}
+header{
+	z-index: 1000;
+}
+footer{
+	background: url(../img/FOOTER_PATTERN.png) repeat-x;
+	height: 214px;
+}
+.anterior{
+	background: url(../img/Flecha_arriba2.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+	top:-70px;
+}
+.siguiente{
+	background: url(../img/flecha_abajo2.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+}
+.siguiente_blue{
+	background: url(../img/Flecha_abajo.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+	top:110px;
+}
+.footer-list{
+	color:red;
+	list-style-type:disc;
+	padding-top:50px;	
+}
+
+.footer-list a{
+	text-decoration: none;
+	font-size:24px;
+	margin: 5px;
+}
+
+.footer-list span:hover{
+	color: #69AFDD;
+
+}
+.footer-list span{
+	color:white;
+}
+
+#left{
+	float:left;
+	width:50%;
+	margin: 0 auto;
+}
+
+#right{
+	float:right;
+	width:50%;
+}
+
+.leftPanel{
+	height:100%;
+	width:40%;
+	float:left;
+}
+
+.rightPanel{
+	height:100%;
+	width:40%;
+	float:right;
+}
+.smallcaps{
+	font-family: 'Economica', sans-serif;
+}
+
+#copyright{
+	color:white;
+	font-size:22px;
+	margin-bottom: 16px;
+	float:right;
+}
+
+#copyright a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.center {
+margin:0 auto;
+}
+
+.content {
+	font-family: 'Economica', sans-serif;
+	color:white;
+	width:1010px;
+	height:100%;
+	min-width: 1010px;
+	margin:0 auto;
+}
+
+.clear {
+	clear:both;
+}
+
+#header {
+width:100%;
+background:url(../img/header-bg.png);
+height:80px;
+position:fixed;
+}
+
+#nav {
+width:800px;
+float:right;
+margin-top:20px;
+min-width: 800px;
+}
+
+#logo{
+	text-decoration:none;
+	float:left;
+	font-size:30px;
+	margin-top:11px;
+	width:200px;
+	height: 90px;
+	background: url("../img/logo.png");
+}
+
+#nav ul {
+display:block;
+list-style:none;
+margin:0 auto;
+}
+
+#nav li {
+margin-top:9px;
+float:left;
+padding-left:21px;
+}
+
+#nav li a {
+color:#fff;
+font-size:26px;
+text-decoration:none;
+font-family: 'Economica', sans-serif;
+}
+
+#nav li a.active {
+color:#fff;
+}
+
+#nav li a:hover {
+	opacity:1;
+	color: #69AFDD;
+}
+
+.divider {
+	background-color: red;
+	height: 29px;
+	width: 2px;
+}
+
+.quotes {
+	font-family: 'Economica', sans-serif;
+	font-weight:400;
+	font-size:30px;
+	text-align:left;
+	margin:50px auto;
+}
+
+.quotes_container {
+	width:800px;
+	margin:0 auto;
+}
+.quotes_container .text{
+	float:right;
+	width:50%;
+}
+
+#slide1,#slide2 {
+width:100%;
+}
+
+#text_left{
+	text-align: left;
+}
+
+#slide1 {
+background-color: #031D4E;
+color:#fff;
+height:600px;
+background-size:cover;
+margin:0;
+padding:80px 0 260px;
+}
+
+#slide2 {
+background:url(../img/Back_banner.jpg) no-repeat fixed;
+color:#fff;
+height:600px;
+background-size:cover;
+padding:170px 0 0;
+}
+
+#slide3 {
+	background:url(../img/fiesta.jpg) no-repeat fixed;
+	height:200px;
+	color:#fff;
+	/*background-size:cover;*/
+	background-size: 100% 98%;
+	margin:0 auto;
+	padding:250px 0;
+	font-family: 'Economica', sans-serif;
+	color:white;
+	font-size: 44px;
+}
+.boton_receta{
+	background:url(../img/btn.png) no-repeat;
+	background-size:200px 60px;
+	height:60px;
+	width:200px;
+	border:none;
+	color:white;
+	padding-top:5px;
+}
+
+#cocteles{
+	position: relative;
+	left:7%;
+	top:60%;
+	width: 250px;
+	height: 120px;
+	/*overflow: hidden;*/
+}
+#platillos{
+	position: relative;
+	left: 70%;
+	top: -50%;
+	width: 250px;
+	height: 65px;
+	/**overflow: hidden;*/
+}
+#bebidas{
+	position: relative;
+	left: 33%;
+	top: -75%;
+	width: 250px;
+	height: 65px;
+	/*overflow: hidden;*/
+}
+
+.menu_recetas{
+	background-color: #0054A5;
+	width:150px;
+	display:none;
+}
+
+
+.menu_recetas .item{
+	border-bottom: 1px solid #083E7C;
+	font-size:24px;
+	padding:5px;
+}
+
+.promo_texto{
+	width:60%;
+	position: relative;
+	top:-100px;
+}
+.promo_texto h1{
+	font-size:85px;
+	font-weight: bold;
+	margin-top:150px;
+}
+.promo_texto h2{
+	font-size:45px;
+	font-weight: bold;
+	margin-top:40px;
+}
+.promo_texto h3{
+	font-size:25px;
+	font-weight: bold;
+	margin-top:30px;
+	color:black;
+}
+#ver_mas{
+	background-color: #EE3E27;
+	color:white;
+	border:none;
+	font-size:44px;
+	padding:3px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#slide4 {
+background:url(../img/BANNER_5_1.jpg) 50% 0 no-repeat fixed;
+color:#fff;
+height:600px;
+background-size:cover;
+padding:170px 0 0;
+}
+
+#facebook{
+	height:30px;
+	width:30px;
+	background: url('../img/fb_1.png') no-repeat;
+	float:right;
+}
+
+#camaron_plus{
+	position: relative;
+	bottom: 289px;
+	left: 63px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#original_plus{
+	position: relative;
+	bottom: 311px;
+	left: 110px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#ceviche_plus{
+	position: relative;
+	bottom: 311px;
+	left: 192px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}
+
+#vuelve_plus{
+	position: relative;
+	bottom: 277px;
+	left: 229px;
+	width: 14px;
+	height: 25px;
+	background-color: transparent;
+	border: none;
+}

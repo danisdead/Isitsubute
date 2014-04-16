@@ -124,7 +124,7 @@
 
 .ms-slide .ms-slide-layers{
 	position: absolute;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	width:100%;
 	height: 100%;
 	z-index: 10;

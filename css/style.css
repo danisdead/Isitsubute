@@ -58,8 +58,15 @@ h3 {
 	padding:0;
 }
 
+h4{
+	font-size: 24px;
+	color: #66ccff;
+	margin: 10px 0px;
+}
+
 p{
-	font-size: 20px;
+	font-size: 16px;
+	color: #FFF;
 }
 
 header{
@@ -410,7 +417,7 @@ padding:170px 0 0;
 #vuelve_plus{
 	position: relative;
 	bottom: 277px;
-	left: 229px;
+	left: 259px;
 	width: 14px;
 	height: 25px;
 	background-color: transparent;

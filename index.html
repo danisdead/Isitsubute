@@ -100,6 +100,8 @@ $('#boton_platillos').click(function(){
 
 
 
+
+
 </script>
 
 
@@ -220,7 +222,7 @@ $('#boton_platillos').click(function(){
 		      <h1 class="text">Nuestros Productos</h1>
 		      <input type="button" value="" id="camaron_plus" class="example-image"> 
 		      <input type="button" value="" id="original_plus" class="example-image"> 
-		      <input type="button" value="" id="ceviche_plus" class="example-image"> 
+		      <!--input type="button" value="" id="ceviche_plus" class="example-image"--> 
 		      <input type="button" value="" id="vuelve_plus" class="example-image"> 
 		    </div> 
 
@@ -325,5 +327,10 @@ $('#boton_platillos').click(function(){
 		  e.preventDefault()
 		  $(this).tab('show')
 		});
+
+		function cerrar(){
+			$("div#overlay_productos").fadeOut('medium').empty();
+		}
+
 	</script>
 </html>

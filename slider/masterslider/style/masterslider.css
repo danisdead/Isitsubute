@@ -6,7 +6,7 @@
 
 .master-slider{
 	position: relative;
-	visibility: hidden;
+	visibility: hidden; 
 	-moz-transform: translate3d(0 , 0 , 0);
 }
 

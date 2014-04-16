@@ -1,0 +1,12 @@
+diff a/css/style.css b/css/style.css	(rejected hunks)
+@@ -208,6 +225,10 @@
+ 	width:800px;
+ 	margin:0 auto;
+ }
++.quotes_container .text{
++	float:right;
++	width:50%;
++}
+ 
+ button.btn-know {
+ 	text-align:center;

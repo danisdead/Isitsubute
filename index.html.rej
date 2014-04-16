@@ -1,0 +1,12 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -89,8 +89,8 @@
+ 		<li><a href="#slide3" title="Next Section">Productos</a></li>
+ 		<li><div class="divider"></div></li>
+ 		<li><a  href="#slide4" title="Next Section">Promociones</a></li>
+-		<li><div style="width:100px"></div></li>
+-		<li><a  href="#">--FB--</a></li>
++		<li><div style="width:170px"></div></li>
++		<li><a href="#"><div id="facebook"></div></a></li>
+ 		<!--<li><a  href="#">--TW--</a></li>-->
+ 	</ul>
+ </nav>

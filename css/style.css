@@ -9,7 +9,7 @@ Author: Samuel Dalusung
 
 /*= GENERAL STYLING
 --------------------------------------------------------*/
-@font-face {
+/*@font-face {
 	font-family:'Fairview';
 	src:url(Fairview_Regular.otf);
 }
@@ -17,7 +17,7 @@ Author: Samuel Dalusung
 @font-face {
 	font-family:'Fairview Small Caps';
 	src:url(Fairview_SmallCaps.otf);
-}
+}*/
 
 body {
 	width:100%;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	font-weight:400;
 	font-size:140px;
 	text-align:center;
@@ -37,9 +37,9 @@ h1 {
 }
 
 h2 {
-	font-family:'Fairview';
-	font-weight:400;
-	font-size:40px;
+	font-family: 'Economica', sans-serif;
+	font-weight:10;
+	font-size:2px;
 	text-align:center;
 	color:#fff;
 	margin:0;
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	font-weight:400;
 	font-size:16px;
 	text-align:center;
@@ -62,6 +62,29 @@ header{
 footer{
 	background: url(../img/FOOTER_PATTERN.png) repeat-x;
 	height: 214px;
+}
+.anterior{
+	background: url(../img/Flecha_arriba2.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+	top:-70px;
+}
+.siguiente{
+	background: url(../img/flecha_abajo2.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+}
+.siguiente_blue{
+	background: url(../img/Flecha_abajo.png) no-repeat;
+	width:70px;
+	height:22px;
+	margin: 0 auto;
+	position: relative;
+	top:110px;
 }
 .footer-list{
 	color:red;
@@ -109,7 +132,7 @@ footer{
 
 
 .smallcaps{
-	font-family:'Fairview Small Caps';
+	font-family: 'Economica', sans-serif;
 }
 
 #copyright{
@@ -129,7 +152,7 @@ margin:0 auto;
 }
 
 .content {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	color:white;
 	width:1010px;
 	height:100%;
@@ -181,7 +204,7 @@ padding-left:21px;
 color:#fff;
 font-size:26px;
 text-decoration:none;
-font-family:'Fairview';
+font-family: 'Economica', sans-serif;
 }
 
 #nav li a.active {
@@ -200,7 +223,7 @@ color:#fff;
 }
 
 .quotes {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	font-weight:400;
 	font-size:30px;
 	text-align:left;
@@ -208,14 +231,14 @@ color:#fff;
 }
 
 .author_name_white {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	color:#fff;
 	font-size:20px;
 	margin:70px 0 0 75px;
 }
 
 .author_name_gray {
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	color:#94a4a4;
 	font-size:20px;
 	margin:70px 0 0 75px;
@@ -293,7 +316,7 @@ padding:170px 0 0;
 	background-size: 100% 98%;
 	margin:0 auto;
 	padding:250px 0;
-	font-family:'Fairview';
+	font-family: 'Economica', sans-serif;
 	color:white;
 	font-size: 44px;
 }
@@ -317,32 +340,24 @@ padding:170px 0 0;
 
 #cocteles{
 	position: relative;
-	left:17%;
-	top:40%;
+	left:7%;
+	top:60%;
 	width: 250px;
 	height: 120px;
 	/*overflow: hidden;*/
 }
-#topbar {
-    background: orange;
-    color: white;
-    height: 65px;
-    text-align:center;
-    position:relative;
-    top:50px;
-}
 #platillos{
 	position: relative;
-	left: 65%;
-	top: -15%;
+	left: 70%;
+	top: -50%;
 	width: 250px;
 	height: 65px;
 	/**overflow: hidden;*/
 }
 #bebidas{
 	position: relative;
-	left: 38%;
-	top: -15%;
+	left: 33%;
+	top: -75%;
 	width: 250px;
 	height: 65px;
 	/*overflow: hidden;*/

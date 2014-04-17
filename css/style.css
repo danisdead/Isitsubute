@@ -278,7 +278,7 @@ padding:170px 0 0;
 
 #slide3 {
 	background:url(../img/fiesta.jpg) no-repeat fixed;
-	height:200px;
+	/*height:200px;*/
 	color:#fff;
 	/*background-size:cover;*/
 	background-size: 100% 98%;
@@ -348,7 +348,7 @@ padding:170px 0 0;
 .promo_texto h1{
 	font-size:85px;
 	font-weight: bold;
-	margin-top:150px;
+	margin-top:210px;
 }
 .promo_texto h2{
 	font-size:45px;
@@ -375,7 +375,7 @@ left: 83px;
 #slide4 {
 background:url(../img/BANNER_5_1.jpg) 50% 0 no-repeat fixed;
 color:#fff;
-height:600px;
+/*height:600px;*/
 background-size:cover;
 padding:170px 0 0;
 }

@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- styles needed by jScrollPane -->
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<!-- latest jQuery direct from google's CDN -->
+<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jscrollpane.min.js"></script>
+
+</head>
+<body>	
+	<div id="overlay_activacion">
+		<div id="leftp">	
+			<label class="custom-select">
+				<select name="select_activacion" id="select_activacion">
+					<option value="img/17_Abril.png">17 Abril</option>
+					<option value="img/18_Abril.png">18 Abril</option>
+					<option value="img/19_Abril.png">19 Abril</option>
+				</select>
+			</label>
+				
+		</div>
+		<div id="rightp">
+			<img id="img_activacion" src="img/17_Abril.png"/>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#select_activacion").change(function () {
+				var act = $('#select_activacion').val();
+				document.getElementById("img_activacion").src = act;
+			});
+		})
+	</script>
+</body>
+</html>

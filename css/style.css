@@ -332,6 +332,7 @@ padding:170px 0 0;
 	border-bottom: 1px solid #083E7C;
 	font-size:24px;
 	padding:5px;
+	cursor: pointer;
 }
 .promo_ver_mas{
 	width: 38%;

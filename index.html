@@ -204,7 +204,9 @@ $('#boton_platillos').click(function(){
 				        >
 				        	* en cualquiera de los establecimientos participantes.
 				        </h3>
-				        <input class="ms-layer" type="button" value="Ver m&aacute;s" id="ver_mas" style="font-family: 'Economica', sans-serif; left:700px; top:340px; width:200px;"> 
+				        <!--<input class="ms-layer" type="button" value="Ver m&aacute;s" id="ver_mas" style="font-family: 'Economica', sans-serif; left:700px; top:340px; width:200px;">-->
+
+				        <input type="button" value="Ver m&aacute;s" id="ver_mas" class="ms-layer ver_activaciones" style="font-family: 'Economica', sans-serif; left:700px; top:340px; width:200px;">
 				    </div>
 				</div>
 				<!-- end of masterslider -->
@@ -325,9 +327,11 @@ $('#boton_platillos').click(function(){
 			width:1024,
 			height:768,
 			space:5,
-			view:'basic',
+			view:'mask',
 			layout:'fullscreen',
 			fullscreenMargin:57,
+			autoplay: true,
+			loop: true,
 			speed:20
 		});
 

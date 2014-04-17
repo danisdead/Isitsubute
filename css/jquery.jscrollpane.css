@@ -21,9 +21,9 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 16px;
+	width: 40px;
 	height: 100%;
-	background: red;
+	background: transparent;
 }
 
 .jspHorizontalBar
@@ -48,13 +48,13 @@
 
 .jspTrack
 {
-	background: #dde;
+	background: transparent;
 	position: relative;
 }
 
 .jspDrag
 {
-	background: #bbd;
+	background: transparent;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -70,7 +70,7 @@
 
 .jspArrow
 {
-	background: #50506d;
+	background: url(../img/flecha_arriba.png) no-repeat;
 	text-indent: -20000px;
 	display: block;
 	cursor: pointer;
@@ -81,7 +81,10 @@
 .jspArrow.jspDisabled
 {
 	cursor: default;
-	background: #80808d;
+}
+
+.jspArrowDown .jspDisabled{
+	background: url(../img/flecha_abajo.png) no-repeat;
 }
 
 .jspVerticalBar .jspArrow
@@ -106,6 +109,10 @@
 	background: #eeeef4;
 	float: left;
 	height: 100%;
+}
+
+.jspArrowDown{
+	background: url(../img/flecha_abajo.png) no-repeat;
 }
 
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */

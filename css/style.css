@@ -416,3 +416,61 @@ padding:170px 0 0;
 	background-color: transparent;
 	border: none;
 }
+
+label.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+
+}
+
+    .custom-select select {
+        display: inline-block;
+		padding: 4px 3px 3px 5px;
+		margin: 0;
+		font: inherit;
+		outline: none;
+		line-height: 1.2;
+		background: #FFF;
+		color: #000D32;
+		border: 0;
+		width: 83%;
+    }
+
+
+
+
+    /* Select arrow styling */
+    .custom-select:after {
+        content: "-";
+        color:white;
+        position: absolute;
+        top: 0;
+        right: 20%;
+        bottom: 0;
+        font-size: 60%;
+        line-height: 30px;
+        padding: 0 7px;
+		background: #FFF;
+		background: url(img/flechita.png) no-repeat;
+		background-size: 19px;
+		padding-top: -30px;
+		margin-top: 5px;
+    }
+    
+    .no-pointer-events .custom-select:after {
+        content: none;
+    }
+
+#overlay_activacion{
+	float: left; border: 1px solid #000; background-color: #031D4E; height: 70%; width: 70%; padding: 25px;;
+}
+#overlay_activacion #leftp{
+	float: left; margin-top: 3%; width: 240px;
+}
+#overlay_activacion #rightp{
+	float: right; width: 74%;  margin-top: 15px;
+}
+#overlay_activacion #rightp img{
+	width: 92%;
+}

@@ -28,6 +28,7 @@
 		<script src="slider/masterslider/masterslider.min.js"></script>
 		<!-- Tabs -->
 		<script src="slider/assets/js/tab.js"></script>
+		<script type="text/javascript" src="js/activacion.js"></script>
 		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 
 		<!-- the jScrollPane script -->
@@ -270,7 +271,8 @@ $('#boton_platillos').click(function(){
 		<a href="#slide3" title="Next Section" ><div class="anterior"></div></a>
 		<div class="content">
 			<div class="promo_ver_mas">
-		      	<input type="button" value="Ver m&aacute;s" id="ver_mas"> 
+		      	<input type="button" value="Ver m&aacute;s" id="ver_mas" class="ver_activaciones">
+		      	
 		    </div> 
 			<div class="promo_texto">
 		      	<h1>&iexcl;Compra tu Clamato&reg; y te lo preparamos!</h1>
@@ -283,7 +285,15 @@ $('#boton_platillos').click(function(){
 		</div> 
 		
     </div>
-
+    <div id="activacionesOverlay">
+	</div>
+	<script>
+		function cambiarImg(){
+			var act = $('#select_activacion').val();
+			console.log(act);
+			document.getElementById("img_activacion").src = act;
+		}
+	</script>
 	<div id="contentOverlay">
 	</div>
     <footer>

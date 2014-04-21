@@ -552,23 +552,50 @@ label.custom-select {
 	}
 
 	.nuestros_productos{
-		margin: 400px auto;
+		margin: 100px auto;
+		width:100%;
+	}
+
+	.quotes_container{
+		width:900px;
 	}
 
 	#img_nuestros{
-		width:600px;
+		width:900px;
 		margin: 0 auto;
-		display:block;
+		
+	}
+
+	h1.text{
+		position:relative;
+		left:-200px;
 	}
 
 	#camaron_plus{
-		background-color: red;
+		top:-700px;
+		left:100px;
+		height:90px;
+		width:90px;
 	}
 	#original_plus{
-		background-color: red;
+		top:-670px;
+		left:600px;
+		height:90px;
+		width:90px;
 	}
 	#vuelve_plus{
-		background-color: red;
+		top:-720px;
+		left:40px;
+		height:90px;
+		width:90px;
+	}
+	.siguiente, .anterior{
+		width:200px;
+		height: 60px;
+		background-size: 100%;
+	}
+	.siguiente{
+		top:200px;
 	}
 
 }

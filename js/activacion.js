@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
-
+	$(document).find('div#slide1').css({'height' : window.innerHeight, 'width' : window.innerWidth});
+	$(document).find('div#slide2').css({'height' : window.innerHeight, 'width' : window.innerWidth});
+	$(document).find('div#slide3').css({'height' : window.innerHeight, 'width' : window.innerWidth});
+	$(document).find('div#slide4').css({'height' : window.innerHeight, 'width' : window.innerWidth});
 
 	var overActivacion = $('<div>').attr('id', 'over_act');
 	//overActivacion.css({'float' : 'left', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'height': '70%', 'width' : '70%', 'padding' : '25px', 'display' : 'none'});

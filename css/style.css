@@ -17,7 +17,8 @@ Author: Samuel Dalusung
 }
 
 @font-face {
-	font-family:'Fairview Small Caps';
+	font-fam
+	ily:'Fairview Small Caps';
 	src:url(Fairview_SmallCaps.otf);
 }*/
 
@@ -168,7 +169,7 @@ margin:0 auto;
 	color:white;
 	width:1010px;
 	height:100%;
-	min-width: 1010px;
+	/*min-width: 1010px;*/
 	margin:0 auto;
 }
 
@@ -252,7 +253,7 @@ color:#fff;
 }
 
 #slide1,#slide2, #slide3, #slide4 {
-width:100%;
+	/*width:100%;*/
 }
 
 #text_left{
@@ -260,33 +261,47 @@ width:100%;
 }
 
 #slide1 {
-background-color: #031D4E;
-color:#fff;
-height:600px;
-background-size:cover;
-margin:0;
-padding:80px 0 260px;
+	background:url(../img/Back_banner.jpg) no-repeat fixed;
+	color:#fff;
+	height:600px;
+	background-size:cover;
+	margin-top:0;
+	/*padding:80px 0 260px;*/
+	padding-top:80px;
 }
 
 #slide2 {
-background:url(../img/Back_banner.jpg) no-repeat fixed;
-color:#fff;
-height:600px;
-background-size:cover;
-padding:170px 0 0;
+	background:url(../img/Back_banner.jpg) no-repeat fixed;
+	color:#fff;
+	height:600px;
+	background-size:cover;
+	padding:170px 0 0;
+	
 }
+
+
 
 #slide3 {
 	background:url(../img/fiesta.jpg) no-repeat fixed;
 	/*height:200px;*/
 	color:#fff;
 	/*background-size:cover;*/
-	background-size: 100% 98%;
+	background-size: cover;
 	margin:0 auto;
 	padding:250px 0;
 	font-family: 'Economica', sans-serif;
 	color:white;
 	font-size: 44px;
+
+}
+
+#slide4 {
+	background:url(../img/BANNER_5_1.jpg) no-repeat fixed;
+	color:#fff;
+	height:600px;
+	background-size:cover;
+	/*background-size: 500px 500px; NO*/
+	padding:170px 0 0;
 }
 .boton_receta{
 	background:url(../img/btn.png) no-repeat;
@@ -296,36 +311,43 @@ padding:170px 0 0;
 	border:none;
 	color:white;
 	padding-top:5px;
+	font-size:1em;
 }
 
 #cocteles{
 	position: relative;
-	left:7%;
-	top:60%;
+	/*left:7%;
+	top:60%;*/
 	width: 250px;
 	height: 120px;
 	/*overflow: hidden;*/
+	float:right;
+	left: -10%;
 }
 #platillos{
 	position: relative;
-	left: 70%;
-	top: -50%;
+	/*left: 70%;
+	top: -50%;*/
 	width: 250px;
 	height: 65px;
 	/**overflow: hidden;*/
+	float:right;
+	left: -10%;
 }
 #bebidas{
 	position: relative;
-	left: 33%;
-	top: -75%;
+	/*left: 33%;
+	top: -75%;*/
 	width: 250px;
 	height: 65px;
 	/*overflow: hidden;*/
+	float:right;
+	left: -10%;
 }
 
 .menu_recetas{
 	background-color: #0054A5;
-	width:150px;
+	width:185px;
 	display:none;
 }
 
@@ -335,6 +357,7 @@ padding:170px 0 0;
 	font-size:24px;
 	padding:5px;
 	cursor: pointer;
+	text-align: center;
 }
 .promo_ver_mas{
 	width: 38%;
@@ -372,13 +395,7 @@ padding:170px 0 0;
 	position: relative;
 left: 83px;
 }
-#slide4 {
-background:url(../img/BANNER_5_1.jpg) 50% 0 no-repeat fixed;
-color:#fff;
-/*height:600px;*/
-background-size:cover;
-padding:170px 0 0;
-}
+
 
 #facebook{
 	height:30px;
@@ -483,4 +500,75 @@ label.custom-select {
 }
 #rightpanel img{
 	width: 92%;
+}
+
+/*iPhone*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+	#slide2{
+		background-size: 400% 50%;
+	}
+	#slide3{
+		background:url('../img/movil_fiesta.png') no-repeat fixed;
+		background-size: cover;
+	}
+	#slide4{
+		background-size: 400% 50%;
+	}
+	.boton_receta{
+		font-size:2.5em;
+		background-size:100% 100%;
+		height:150px;
+		width:500px;
+		padding:5px;
+	}
+	#cocteles{
+		float: none;
+		top: 80px;
+		margin:0 auto;
+	}
+	#bebidas{
+		float: left;
+		top: 350px;
+		left: -15px;
+	}
+	#platillos{
+		float: right;
+		top:350px;
+		left: -150px;
+	}
+
+	.menu_recetas{
+		background-color: #0054A5;
+		width:390px;
+		display:none;
+	}
+	
+	.menu_recetas .item{
+		font-size:1.5em;
+		z-index:10000;
+		width:430px;
+		background-color: #0054A5;
+		padding:20px;
+	}
+
+	.nuestros_productos{
+		margin: 400px auto;
+	}
+
+	#img_nuestros{
+		width:600px;
+		margin: 0 auto;
+		display:block;
+	}
+
+	#camaron_plus{
+		background-color: red;
+	}
+	#original_plus{
+		background-color: red;
+	}
+	#vuelve_plus{
+		background-color: red;
+	}
+
 }

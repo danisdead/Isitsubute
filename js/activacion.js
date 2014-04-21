@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$('.ver_activaciones').on('click', function(){
 		console.log();
 		$(document).find('div#activacionesOverlay').empty().append(overActivacion);
-		var content_activacion = "<div id='leftpanel'>	<div style='color:white; font-size:20px; margin:28px;'>Selecciona la fecha:</div>  <label class='custom-select'> <select name='select_activacion' id='select_activacion' onchange='cambiarImg()'> <option value='img/17_Abril.png'>17 Abril</option> <option value='img/18_Abril.png'>18 Abril</option> <option value='img/19_Abril.png'>19 Abril</option></select></label></div><div id='rightpanel'><img id='img_activacion' src='img/17_Abril.png' style='width: 92%;'/></div>";
+		var content_activacion = "<div id='leftpanel'><div style='color:white; font-size:20px; margin:28px;'>Selecciona la fecha:</div><div class='styled-select'><select name='select_activacion' id='select_activacion' onchange='cambiarImg()'><option value='img/17_Abril.png'>17 Abril</option><option value='img/18_Abril.png'>18 Abril</option><option value='img/19_Abril.png'>19 Abril</option></select></div></div><div id='rightpanel'><img id='img_activacion' src='img/17_Abril.png' style='width: 92%;'/></div>";
 		$(document).find('div#over_act').append(content_activacion);
 		$('div#over_act').fadeIn('medium');
 	})

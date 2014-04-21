@@ -451,7 +451,7 @@ label.custom-select {
 
 }
 
-    .custom-select select {
+ /*   .custom-select select {
         display: inline-block;
 		padding: 4px 3px 3px 5px;
 		margin-left: 30px;
@@ -463,12 +463,12 @@ label.custom-select {
 		border: 0;
 		width: 83%;
     }
-
+*/
 
 
 
     /* Select arrow styling */
-    .custom-select:after {
+ /*   .custom-select:after {
         content: "-";
         color:white;
         position: absolute;
@@ -483,7 +483,7 @@ label.custom-select {
 		background-size: 19px;
 		padding-top: -30px;
 		margin-top: 5px;
-    }
+    }*/
     
     .no-pointer-events .custom-select:after {
         content: none;
@@ -599,3 +599,24 @@ label.custom-select {
 	}
 
 }
+
+    .styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+   .styled-select {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(../img/flechita.png) no-repeat right #ddd;
+   border: 1px solid #fff;
+   margin-left: 27px;
+   }

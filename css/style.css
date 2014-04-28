@@ -178,17 +178,17 @@ margin:0 auto;
 }
 
 #header {
-width:100%;
-background:url(../img/header-bg.png);
-height:80px;
-position:fixed;
+	width:100%;
+	background:url(../img/header-bg.png);
+	height:80px;
+	position:fixed;
 }
 
 #nav {
-width:800px;
-float:right;
-margin-top:20px;
-min-width: 800px;
+	width:800px;
+	float:right;
+	margin-top:20px;
+	min-width: 800px;
 }
 
 #logo{
@@ -202,26 +202,26 @@ min-width: 800px;
 }
 
 #nav ul {
-display:block;
-list-style:none;
-margin:0 auto;
+	display:block;
+	list-style:none;
+	margin:0 auto;
 }
 
 #nav li {
-margin-top:9px;
-float:left;
-padding-left:21px;
+	margin-top:9px;
+	float:left;
+	padding-left:21px;
 }
 
 #nav li a {
-color:#fff;
-font-size:26px;
-text-decoration:none;
-font-family: 'Economica', sans-serif;
+	color:#fff;
+	font-size:26px;
+	text-decoration:none;
+	font-family: 'Economica', sans-serif;
 }
 
 #nav li a.active {
-color:#fff;
+	color:#fff;
 }
 
 #nav li a:hover {
@@ -251,9 +251,14 @@ color:#fff;
 	float:right;
 	width:50%;
 }
-
+#mar_left{
+	width:100px
+}
+#mar_right{
+	width:170px;
+}
 #slide1,#slide2, #slide3, #slide4 {
-	/*width:100%;*/
+	width:100%;
 }
 
 #text_left{
@@ -504,15 +509,18 @@ label.custom-select {
 
 /*iPhone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+	#slide1{
+		
+	}
 	#slide2{
-		background-size: 400% 50%;
+		background-size: cover;
 	}
 	#slide3{
 		background:url('../img/movil_fiesta.png') no-repeat fixed;
 		background-size: cover;
 	}
-	#slide4{
-		background-size: cover;
+	#slide1, #slide2, #slide3{
+
 	}
 	.boton_receta{
 		font-size:2.5em;
@@ -534,7 +542,7 @@ label.custom-select {
 	#platillos{
 		float: right;
 		top:350px;
-		left: -150px;
+		left: -450px;
 	}
 
 	.menu_recetas{
@@ -596,6 +604,60 @@ label.custom-select {
 	}
 	.siguiente{
 		top:200px;
+	}
+
+	#header {
+		width:100%;
+		height:160px;
+	}
+
+	#nav {
+		width:20px;
+		float:right;
+		margin-top:20px;
+		background-color: blue;
+		display:none;
+	}
+
+	#logo{
+		font-size:30px;
+		margin-top:11px;
+		width:330px;
+		height: 190px;
+		background-size: 100% 100%;
+	}
+
+	#nav ul {
+		margin:0 auto;
+	}
+
+	#nav li {
+		margin-top:9px;
+		padding-left:0px;
+	}
+
+	#nav li a {
+		font-size:66px;
+	}
+
+	.divider {
+		height: 60px;
+		width: 2px;
+	}
+
+	#facebook{
+		height:30px;
+		width:30px;
+		background: url('../img/fb_1.png') no-repeat;
+		float:right;
+	}
+
+	#mar_left{
+		width:0px;
+	}
+
+	#mar_right{
+		width:0px;
 	}
 
 }

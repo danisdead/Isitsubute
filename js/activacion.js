@@ -5,9 +5,8 @@ $(document).ready(function(){
 	$(document).find('div#slide3').css({'height' : window.innerHeight/*, 'width' : window.innerWidth*/});
 
 	var overActivacion = $('<div>').attr('id', 'over_act');
-	//overActivacion.css({'float' : 'left', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'height': '70%', 'width' : '70%', 'padding' : '25px', 'display' : 'none'});
-	overActivacion.css({'height' : '800px', 'background' : 'url("img/TOOLTIP_PATTERN2.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
-
+	overActivacion.css({'background-color' : 'red', 'height' : '200px', 'background' : 'url("img/TOOLTIP_PATTERN2.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2',  'left' : '50%', 'display' : 'none'});
+	
 	$('.ver_activaciones').on('click', function(){
 		console.log();
 		$(document).find('div#activacionesOverlay').empty().append(overActivacion);

@@ -257,9 +257,6 @@ margin:0 auto;
 #mar_right{
 	width:170px;
 }
-#slide1,#slide2, #slide3, #slide4 {
-	width:100%;
-}
 
 #text_left{
 	text-align: left;
@@ -510,51 +507,54 @@ label.custom-select {
 /*iPhone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
 	#slide1{
-		
+		padding-top:158px;
 	}
 	#slide2{
 		background-size: cover;
 	}
 	#slide3{
-		background:url('../img/movil_fiesta.png') no-repeat fixed;
 		background-size: cover;
 	}
 	#slide1, #slide2, #slide3{
-
+		width:100%;
 	}
+	.content {
+		font-family: 'Economica', sans-serif;
+		width:100%;
+	}
+
 	.boton_receta{
-		font-size:2.5em;
+		font-size:2.1em;
 		background-size:100% 100%;
 		height:150px;
-		width:500px;
+		width:430px;
 		padding:5px;
 	}
 	#cocteles{
 		float: none;
-		top: 80px;
+		top: 30px;
 		margin:0 auto;
 	}
 	#bebidas{
 		float: left;
-		top: 350px;
-		left: -15px;
+		top: 250px;
+		left: 40px;
 	}
 	#platillos{
 		float: right;
-		top:350px;
-		left: -450px;
+		top:250px;
+		left: -190px;
 	}
 
 	.menu_recetas{
 		background-color: #0054A5;
-		width:390px;
+		width:400px;
 		display:none;
 	}
 	
 	.menu_recetas .item{
-		font-size:1.5em;
+		font-size:1.3em;
 		z-index:10000;
-		width:430px;
 		background-color: #0054A5;
 		padding:20px;
 	}
@@ -612,36 +612,28 @@ label.custom-select {
 	}
 
 	#nav {
-		width:20px;
+		width:65%;
 		float:right;
-		margin-top:20px;
-		background-color: blue;
-		display:none;
+		margin-top:30px;
+		min-width: 0px;
 	}
 
 	#logo{
 		font-size:30px;
 		margin-top:11px;
-		width:330px;
+		width:33%;
 		height: 190px;
-		background-size: 100% 100%;
-	}
-
-	#nav ul {
-		margin:0 auto;
-	}
-
-	#nav li {
-		margin-top:9px;
-		padding-left:0px;
+		background-size: 100% 104%;
 	}
 
 	#nav li a {
 		font-size:66px;
+		margin-left:0px;
+		margin-right:0px;
 	}
 
 	.divider {
-		height: 60px;
+		height: 55px;
 		width: 2px;
 	}
 
@@ -650,6 +642,7 @@ label.custom-select {
 		width:30px;
 		background: url('../img/fb_1.png') no-repeat;
 		float:right;
+		display:none;
 	}
 
 	#mar_left{
@@ -658,6 +651,19 @@ label.custom-select {
 
 	#mar_right{
 		width:0px;
+	}
+	footer{
+		background: url(../img/movil_footer.png) repeat;
+		height: 314px;
+	}
+	.footer-list a{
+		font-size:64px;
+		margin: 15px;
+	}
+	#copyright{
+		font-size:36px;
+		position:relative;
+		top:-230px;
 	}
 
 }

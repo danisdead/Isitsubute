@@ -1,8 +1,16 @@
 $(document).ready(function(){
 
+	var resolution_width = window.screen.availWidth;
+
 	var overlay = $('<div>').attr('id', 'overlay_productos');
 	var overlay2 = $('<div>').attr('id', 'overlay_recetas');
-	overlay.css({'height' : '800px', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
+
+	if(resolution_width <= '320'){
+		overlay.css({'height' : '800px', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'position': 'fixed', 'top' : '40px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
+	}else{
+		overlay.css({'height' : '800px', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
+	}
+	
 	overlay2.css({'height' : '800px', 'position': 'fixed', 'top' : '0px', 'margin' : '5% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
 	$('.example-image').on('click', function(){
 		var id = $(this).attr('id');

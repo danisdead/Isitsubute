@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$(document).find('#ant_s3').css({'top' : window.innerHeight - (window.innerHeight * 1.07)});
 
 	var overActivacion = $('<div>').attr('id', 'over_act');
-	overActivacion.css({'background-color' : 'red', 'height' : '200px', 'background' : 'url("img/TOOLTIP_PATTERN2.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2',  'left' : '50%', 'display' : 'none'});
+	overActivacion.css({'height' : '200px', 'background' : 'url("img/TOOLTIP_PATTERN2.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2',  'left' : '50%', 'display' : 'none'});
 	
 	$('.ver_activaciones').on('click', function(){
 		console.log(); 

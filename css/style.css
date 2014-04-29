@@ -515,6 +515,19 @@ label.custom-select {
 	top:130px; left:40px; font-size: 134px;
 }
 
+#ioverlay_recetas{
+	height: 800px;
+	background: url('..img/TOOLTIP_PATTERN2.png') repeat-x;
+	position: fixed;
+	top: 0px;
+	margin: 10% 0% 0% -40%;
+	z-index: 2;
+	left: 50%;
+	display:none
+
+
+}
+
 /*iPhone*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
 	#slide1{
@@ -524,7 +537,8 @@ label.custom-select {
 		background-size: cover;
 	}
 	#slide3{
-		background-size: cover;
+		background:url(../img/movil_fiesta.png) no-repeat fixed;
+		background-size: 100% 100%;
 	}
 	#slide1, #slide2, #slide3{
 		width:100%;
@@ -694,6 +708,17 @@ label.custom-select {
 		right:0px;
 		top:450px;
 		width:1000px;
+	}
+	#overlay_recetas{
+		height: 400px;
+		/*background: url('..img/TOOLTIP_PATTERN2.png') repeat-x;*/
+		background-color: red;
+		position: fixed;
+		top: 0px;
+		margin: 10% 0% 0% -40%;
+		z-index: 2;
+		left: 50%;
+		display:none
 	}
 
 }

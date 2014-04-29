@@ -560,50 +560,50 @@ label.custom-select {
 	}
 
 	.nuestros_productos{
-		margin: 100px auto;
+		margin: 0 auto;
 		width:100%;
 	}
 
-	.quotes_container{
-		width:900px;
-	}
-
 	#img_nuestros{
-		width:900px;
+		width:800px;
 		margin: 0 auto;
-		
-	}
+		position: relative;
+		top:-30px;
 
-	h1.text{
-		position:relative;
-		left:-200px;
+	}
+	
+	.quotes_container .text{
+		font-size:120px;
+		width:100%;
 	}
 
 	#camaron_plus{
-		top:-700px;
+		top:-650px;
 		left:100px;
-		height:90px;
-		width:90px;
+		height:105px;
+		width:105px;
 	}
 	#original_plus{
-		top:-670px;
-		left:600px;
-		height:90px;
-		width:90px;
+		top:-620px;
+		left:510px;
+		height:105px;
+		width:105px;
 	}
 	#vuelve_plus{
-		top:-720px;
-		left:40px;
-		height:90px;
-		width:90px;
+		top:-700px;
+		left:30px;
+		height:105px;
+		width:105px;
 	}
 	.siguiente, .anterior{
 		width:200px;
 		height: 60px;
 		background-size: 100%;
 	}
-	.siguiente{
-		top:200px;
+
+	#sig_s1, #sig_s2, #sig_s3, #ant_s2, #ant_s3{
+		position:relative;
+		top: 0px;
 	}
 
 	#header {

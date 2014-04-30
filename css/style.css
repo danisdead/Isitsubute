@@ -59,6 +59,7 @@ h3 {
 	position:relative;
 	margin:5px 0;
 	padding:0;
+	color: #66ccff;
 }
 
 h4{
@@ -524,8 +525,30 @@ label.custom-select {
 	z-index: 2;
 	left: 50%;
 	display:none
+}
 
-
+.vertical_overlay{
+	background: url(../img/TOOLTIP_PATTERN.png) repeat;
+	background-size: 1% 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	overflow: scroll;
+}
+.vertical_overlay h3{
+	font-size:72px;
+}
+.vertical_overlay h4{
+	font-size:66px;
+}
+.vertical_overlay p{
+	font-size:56px;
+}
+.vertical_overlay #img_receta{
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 /*iPhone*/
@@ -557,17 +580,17 @@ label.custom-select {
 	}
 	#cocteles{
 		float: none;
-		top: 30px;
+		top: 15px;
 		margin:0 auto;
 	}
 	#bebidas{
 		float: left;
-		top: 250px;
+		top: 235px;
 		left: 40px;
 	}
 	#platillos{
 		float: right;
-		top:250px;
+		top:235px;
 		left: -190px;
 	}
 
@@ -581,7 +604,10 @@ label.custom-select {
 		font-size:1.3em;
 		z-index:10000;
 		background-color: #0054A5;
-		padding:20px;
+		padding-left:20px;
+		padding-right:21px;
+		padding-top:15px;
+		padding-bottom:15px;
 	}
 
 	.nuestros_productos{
@@ -712,7 +738,6 @@ label.custom-select {
 	#overlay_recetas{
 		height: 400px;
 		/*background: url('..img/TOOLTIP_PATTERN2.png') repeat-x;*/
-		background-color: red;
 		position: fixed;
 		top: 0px;
 		margin: 10% 0% 0% -40%;

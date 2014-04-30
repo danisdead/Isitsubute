@@ -59,6 +59,7 @@ h3 {
 	position:relative;
 	margin:5px 0;
 	padding:0;
+	color: #66ccff;
 }
 
 h4{
@@ -524,8 +525,28 @@ label.custom-select {
 	z-index: 2;
 	left: 50%;
 	display:none
+}
 
-
+.vertical_overlay{
+	width:70%;
+	background: url(../img/TOOLTIP_PATTERN.png) repeat;
+	background-size: 1% 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding:20px;
+}
+.vertical_overlay h3{
+	font-size:100px;
+}
+.vertical_overlay h4{
+	font-size:70px;
+}
+.vertical_overlay p{
+	font-size:60px;
+}
+.vertical_overlay #img_receta{
+	padding-top:25px;
+	padding-bottom:25px;
 }
 
 /*iPhone*/
@@ -712,7 +733,6 @@ label.custom-select {
 	#overlay_recetas{
 		height: 400px;
 		/*background: url('..img/TOOLTIP_PATTERN2.png') repeat-x;*/
-		background-color: red;
 		position: fixed;
 		top: 0px;
 		margin: 10% 0% 0% -40%;

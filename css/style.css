@@ -580,17 +580,17 @@ label.custom-select {
 	}
 	#cocteles{
 		float: none;
-		top: 30px;
+		top: 15px;
 		margin:0 auto;
 	}
 	#bebidas{
 		float: left;
-		top: 250px;
+		top: 235px;
 		left: 40px;
 	}
 	#platillos{
 		float: right;
-		top:250px;
+		top:235px;
 		left: -190px;
 	}
 
@@ -604,7 +604,10 @@ label.custom-select {
 		font-size:1.3em;
 		z-index:10000;
 		background-color: #0054A5;
-		padding:20px;
+		padding-left:20px;
+		padding-right:21px;
+		padding-top:15px;
+		padding-bottom:15px;
 	}
 
 	.nuestros_productos{

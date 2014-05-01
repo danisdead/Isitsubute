@@ -10,7 +10,7 @@ $(document).ready(function(){
 		overlay2.css({'top' : '60px', 'display' : 'none', 'width' : '90%', 'left' : '45%',});
 	}else{
 		overlay.css({'height' : '800px', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'position': 'fixed', 'top' : '0px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
-		overlay2.css({'top' : '10%', 'display' : 'none'});
+		overlay2.css({'height' : '800px', 'position' : 'fixed', 'top' : '0px', 'margin' : '5% 0 0 -40%', 'z-index' : '2', 'width' : '80%', 'left' : '50%', 'display' : 'none'});
 	}
 
 	

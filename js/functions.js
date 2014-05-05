@@ -66,7 +66,7 @@ $(document).ready(function(){
 			break;
 			case "clamachela":
 				if(resolution_width <= '768'){
-					var content_clamachela = "<div class='vertical_overlay'> <h3 id='receta_titulo'>Clamachela</h3> <img src='img/recetasclamato/600x600.gif' id='img_receta' /><h4>Ingredientes</h4><div class='scroll-pane' style='height: 200px; margin-bottom:15px;'><p>Clamato Fr&iacute;o 1/4</p><p>Cerveza 3/4</p><p>Salsas sazonadoras (al gusto)</p><p>Lim&oacute;n 1</p><p>Sal (al gusto)</p></div><h4>Instrucciones</h4><div class='scroll-pane' style='height: 220px;'><p>- Escarcha el vaso de tu preferencia, ponle mucho hielo, exprime el lim&oacute;n completo y sal al gusto.</p><p>- Agregas unas gotas de salsas sazonadoras y le a&ntilde;ades Clamato y 3/4 partes de cerveza.</p></div></div>"
+					var content_clamachela = "<div class='vertical_overlay'> <h3 id='receta_titulo'>Clamachela</h3> <img src='img/recetasclamato/Clamachela.jpg' id='img_receta' /><h4>Ingredientes</h4><div class='scroll-pane' style='height: 200px; margin-bottom:15px;'><p>Clamato Fr&iacute;o 1/4</p><p>Cerveza 3/4</p><p>Salsas sazonadoras (al gusto)</p><p>Lim&oacute;n 1</p><p>Sal (al gusto)</p></div><h4>Instrucciones</h4><div class='scroll-pane' style='height: 220px;'><p>- Escarcha el vaso de tu preferencia, ponle mucho hielo, exprime el lim&oacute;n completo y sal al gusto.</p><p>- Agregas unas gotas de salsas sazonadoras y le a&ntilde;ades Clamato y 3/4 partes de cerveza.</p></div></div>"
 				}else{
 					var content_clamachela = "<div style='background: url(img/recetasclamato/CLAMACHELA.png) no-repeat; width: 1020px; height:572px;'></div>"
 				}

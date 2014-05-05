@@ -724,7 +724,7 @@ label.custom-select {
 		margin: 0 auto;
 		left:0px;
 	}
-	#txt2_sld1{ /*que comience*/
+	#txt2_sld1{ /*la fiesta*/
 		top:200px;
 		font-size: 160px;
 		width:100%;
@@ -738,7 +738,6 @@ label.custom-select {
 	}
 	#overlay_recetas{
 		height: 400px;
-		/*background: url('..img/TOOLTIP_PATTERN2.png') repeat-x;*/
 		position: fixed;
 		top: 0px;
 		margin: 10% 0% 0% -40%;
@@ -770,11 +769,9 @@ label.custom-select {
 		height: 130px;
 		background-size: 100% 102%;
 	}
-
 	#nav li a {
 		font-size:44px;
 	}
-
 	.divider {
 		height: 45px;
 	}
@@ -782,7 +779,6 @@ label.custom-select {
 	#mar_left{
 		width:0px;
 	}
-
 	#mar_right{
 		width:0px;
 	}
@@ -793,11 +789,8 @@ label.custom-select {
 		background-color: #044687;
 		background:url(../img/fiesta.jpg) no-repeat fixed;
 		background-size: 300% 35%;
-		background-position: -1200px 2800px;
-	}
-	.nuestros_productos{
-		position:relative;
-		top:-60%;
+		/*background-position: -1200px 2800px;*/
+		background-position: center 2500px;
 	}
 	.siguiente, .anterior{
 		width:120px;
@@ -809,16 +802,120 @@ label.custom-select {
 		position:relative;
 		top: 0px;
 	}
-
 	#ant_s2{
+		position: relative;
 		top:350px;
 	}
 	#sig_s2{
-		top:350px;
+		position: relative;
+		top:-700px;
 	}
 	#slider1-wrapper{
 		position: relative;
-		top:-30px;
+		top:35px;
+	}
+	#txt_sld1{ /*que comience*/
+		top:30px;
+		font-size: 180px;
+		width:100%;
+		margin: 0 auto;
+		left:0px;
+	}
+	#txt2_sld1{ /*la fiesta*/
+		top:200px;
+		font-size: 160px;
+		width:100%;
+		margin: 0 auto;
+		left:0px;
+	}
+	#img_sld1{
+		right:0px;
+		top:450px;
+		width:1000px;
+	}
+	.nuestros_productos{
+		margin: 0 auto;
+		width:100%;
+	}
+
+	#img_nuestros{
+		width:800px;
+		margin: 0 auto;
+		position: relative;
+		top:0px;
+	}
+
+	.quotes_container .text{
+		font-size:100px;
+		width:100%;
+	}
+	#camaron_plus{
+		top:-740px;
+		left:100px;
+		height:105px;
+		width:105px;
+	}
+	#original_plus{
+		top:-780px;
+		left:120px;
+		height:105px;
+		width:105px;
+	}
+	#vuelve_plus{
+		top:-710px;
+		left:370px;
+		height:105px;
+		width:105px;
+	}
+	#overlay_recetas{
+		height: 400px;
+		position: fixed;
+		top: 0px;
+		margin: 10% 0% 0% -40%;
+		z-index: 2;
+		left: 50%;
+		display:none
+	}
+	.boton_receta{
+		font-size:1.3em;
+		background-size:100% 100%;
+		height:80px;
+		width:240px;
+		padding:5px;
+
+	}
+	.menu_recetas .item{
+		font-size:1em;
+		z-index:10000;
+		background-color: #0054A5;
+		padding-left:20px;
+		padding-right:21px;
+		padding-top:15px;
+		padding-bottom:15px;
+		width:220px;
+	}
+	#bebidas{
+		margin: 0 auto;
+	}
+	#platillos{
+		position:relative;
+		left:-150px;
+	}
+	#cocteles{
+		position:relative;
+		left:-35px;
+	}
+	#bebidas, #platillos, #cocteles{
+		top:100px;
+	}
+	.vertical_overlay h3{
+		font-size:52px;
+	}
+	.vertical_overlay h4{
+		font-size:46px;
+	}
+	.vertical_overlay p{
+		font-size:36px;
 	}
 }
 

@@ -6,9 +6,7 @@ $(document).ready(function(){
 
 	/*Acomoda las flechas de siguiente y anterior al inicio y al final de la pantalla*/
 	$(document).find('#sig_s1').css({'top' : window.innerHeight - (window.innerHeight * 1.15)});
-	//$(document).find('#sig_s2').css({'top' : 0});
-	//$(document).find('#ant_s1').css({'top' : 0});
-
+	$(document).find('#sig_s2').css({'top' : window.innerHeight - (window.innerHeight * 1.05)});
 	$(document).find('#ant_s2').css({'top' : window.innerHeight - (window.innerHeight * 1.01)});
 	
 	$(document).find('#ant_s3').css({'top' : window.innerHeight - (window.innerHeight * 1.07)});

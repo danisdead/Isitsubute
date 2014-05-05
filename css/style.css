@@ -172,9 +172,6 @@ margin:0 auto;
 	height:100%;
 	/*min-width: 1010px;*/
 	margin:0 auto;
-	position: relative;
-	top: 3%;
-	
 }
 
 .clear {
@@ -573,8 +570,6 @@ label.custom-select {
 	.content {
 		font-family: 'Economica', sans-serif;
 		width:100%;
-		position: relative;
-		top: 3%;
 	}
 
 	.boton_receta{
@@ -752,6 +747,79 @@ label.custom-select {
 		display:none
 	}
 
+}
+/*iPad Only*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.content {
+		width:100%;
+	}
+	#header {
+		height:120px;
+	}
+
+	#nav {
+		width:65%;
+		float:right;
+		margin-top:30px;
+		min-width: 0px;
+	}
+
+	#logo{
+		margin-top:11px;
+		width:30%;
+		height: 130px;
+		background-size: 100% 102%;
+	}
+
+	#nav li a {
+		font-size:44px;
+	}
+
+	.divider {
+		height: 45px;
+	}
+
+	#mar_left{
+		width:0px;
+	}
+
+	#mar_right{
+		width:0px;
+	}
+	#facebook{
+		display:none;
+	}
+	#slide3{
+		background-color: #044687;
+		background:url(../img/fiesta.jpg) no-repeat fixed;
+		background-size: 300% 35%;
+		background-position: -1200px 2800px;
+	}
+	.nuestros_productos{
+		position:relative;
+		top:-60%;
+	}
+	.siguiente, .anterior{
+		width:120px;
+		height: 40px;
+		background-size: 100%;
+	}
+
+	#sig_s1, #sig_s2, #sig_s3, #ant_s2, #ant_s3{
+		position:relative;
+		top: 0px;
+	}
+
+	#ant_s2{
+		top:350px;
+	}
+	#sig_s2{
+		top:350px;
+	}
+	#slider1-wrapper{
+		position: relative;
+		top:-30px;
+	}
 }
 
     .styled-select select {

@@ -8,7 +8,9 @@ $(document).ready(function(){
 	$(document).find('#sig_s1').css({'top' : window.innerHeight - (window.innerHeight * 1.15)});
 	//$(document).find('#sig_s2').css({'top' : 0});
 	//$(document).find('#ant_s1').css({'top' : 0});
-	$(document).find('#ant_s2').css({'top' : window.innerHeight - (window.innerHeight * 1.1)});
+
+	$(document).find('#ant_s2').css({'top' : window.innerHeight - (window.innerHeight * 1.01)});
+	
 	$(document).find('#ant_s3').css({'top' : window.innerHeight - (window.innerHeight * 1.07)});
 
 	var overActivacion = $('<div>').attr('id', 'over_act');

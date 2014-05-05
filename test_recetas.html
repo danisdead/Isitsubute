@@ -2,17 +2,19 @@
 	<head>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Economica:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
+<!-- latest jQuery direct from google's CDN -->
+<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+
+<!-- the mousewheel plugin - optional to provide mousewheel support -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jscrollpane.min.js"></script>
 	</head>
 <body>	
-	<div class="vertical_overlay">
-		<h3 id="receta_titulo">Titulo</h3>
-		<img src="img/recetasclamato/600x600.gif" id="img_receta" />
-		<h4>Ingredientes</h4>
-		<p id="receta_ingredientes">blablablablabla</p>
-		<h4>Instrucciones</h4>
-		<p id="receta_instrucciones">blablablabla</p>
-	</div>
+<div class='vertical_overlay'> <h3 id='receta_titulo'>Clamachela</h3> <img src='img/recetasclamato/600x600.gif' id='img_receta' /><h4>Ingredientes</h4><div class='scroll-pane' style='height: 200px; margin-bottom:15px;'><p>Clamato Fr&iacute;o 1/4</p><p>Cerveza 3/4</p><p>Salsas sazonadoras (al gusto)</p><p>Lim&oacute;n 1</p><p>Sal (al gusto)</p></div><h4>Instrucciones</h4><div class='scroll-pane' style='height: 220px;'><p>- Escarcha el vaso de tu preferencia, ponle mucho hielo, exprime el lim&oacute;n completo y sal al gusto.</p><p>- Agregas unas gotas de salsas sazonadoras y le a&ntilde;ades Clamato y 3/4 partes de cerveza.</p></div></div>
 
 </body>
 </html>

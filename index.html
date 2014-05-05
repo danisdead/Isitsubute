@@ -35,6 +35,23 @@
 		<!-- the jScrollPane script -->
 		<script type="text/javascript" src="js/jscrollpane.min.js"></script>
 		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript">
+/*
+		var checkOrientation;
+checkOrientation = function() {
+  var viewport;
+  viewport = document.querySelector("meta[name=viewport]");
+  if (window.orientation === 90 || window.orientation === -90) {
+    return viewport.setAttribute("content", "width:device-width, initial-scale=1.0, user-scalable=no");
+  } else {
+    return viewport.setAttribute("content", "width:device-width, initial-scale=0.6, user-scalable=no");
+  }
+};
+window.onorientationchange = function() {
+  return checkOrientation();
+};
+checkOrientation();*/
+		</script>
 		
 		<style type="text/css">
 			.header{margin-bottom: 0;}
@@ -312,7 +329,8 @@ $('#boton_platillos').click(function(){
 		}
 
 		function cerrar_receta(){
-			$("div#overlay_recetas").fadeOut('medium').empty();
+			alert();/*
+			$("div#overlay_recetas").fadeOut('medium').empty();*/
 		}
 
 	</script>

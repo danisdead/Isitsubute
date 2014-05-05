@@ -172,6 +172,9 @@ margin:0 auto;
 	height:100%;
 	/*min-width: 1010px;*/
 	margin:0 auto;
+	position: relative;
+	top: 3%;
+	
 }
 
 .clear {
@@ -247,6 +250,7 @@ margin:0 auto;
 .quotes_container {
 	width:800px;
 	margin:0 auto;
+
 }
 .quotes_container .text{
 	float:right;
@@ -569,6 +573,8 @@ label.custom-select {
 	.content {
 		font-family: 'Economica', sans-serif;
 		width:100%;
+		position: relative;
+		top: 3%;
 	}
 
 	.boton_receta{

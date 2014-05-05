@@ -748,6 +748,40 @@ label.custom-select {
 
 }
 /*iPad Only*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#facebook{
+		display:none;
+	}
+	#slide3{
+		background:url(../img/fiesta.jpg) no-repeat fixed;
+		background-size: 300% 45%;
+		background-position: center 1200px;
+	}
+	.boton_receta{
+		font-size:1em;
+		background-size:100% 100%;
+		height:60px;
+		width:200px;
+		padding:5px;
+	}
+	.vertical_overlay h3{
+		font-size:32px;
+	}
+	.vertical_overlay h4{
+		font-size:26px;
+	}
+	.vertical_overlay p{
+		font-size:16px;
+	}
+	#overlay_recetas{
+		position: fixed;
+		top: 0px;
+		margin: 10% 0% 0% -40%;
+		z-index: 2;
+		left: 50%;
+		display:none
+	}
+}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.content {
 		width:100%;
@@ -882,7 +916,6 @@ label.custom-select {
 		height:80px;
 		width:240px;
 		padding:5px;
-
 	}
 	.menu_recetas .item{
 		font-size:1em;

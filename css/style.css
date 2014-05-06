@@ -753,6 +753,42 @@ label.custom-select {
 		height: 220px;
 	}
 
+	.contenedor_prod{
+		padding: 0px 0px 10px 0px;
+		float:left;
+		width: 313px;
+		height: 782px;
+	}
+
+	.img_prod{
+		float: left;
+		width: 131px;
+		margin: 23px 23px 21px 89px;
+	}
+
+	.titulo_prod{
+		font-size: 50px;
+		color: #FFF;
+	}
+
+	.descripcion_prod{
+		font-size:48px;
+	}
+
+	.tbl_prod{
+		margin-left: 19px;
+		width: 260px;
+	}
+
+	.cerrar_prod{
+		float: right;
+		cursor:pointer;
+		background: url(../img/CERRAR.png);
+		height: 38px;
+		width: 38px;
+		margin: 10px 10px 0px 0px;
+	}
+
 }
 /*iPad Only*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -800,6 +836,45 @@ label.custom-select {
 		padding-top:0px;
 		padding-bottom:0px;
 	}
+
+	.contenedor_prod{
+		padding: 0px 0px 10px 0px;
+		float:left;
+		width: 313px;
+		height: 782px;
+	}
+
+	.img_prod{
+		float: left;
+		width: 80px;
+		margin: 23px 23px 21px 89px;
+	}
+
+	.titulo_prod{
+		font-size: 50px;
+		color: #FFF;
+	}
+
+	.descripcion_prod{
+		font-size:48px;
+	}
+
+	.tbl_prod{
+		margin-left: 19px;
+		width: 160px;
+	}
+
+	.cerrar_prod{
+		float: right;
+		cursor:pointer;
+		background: url(../img/CERRAR.png);
+		height: 38px;
+		width: 38px;
+		margin: 10px 10px 0px 0px;
+	}
+
+	
+
 
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -970,6 +1045,43 @@ label.custom-select {
 	.vertical_overlay p{
 		font-size:36px;
 	}
+
+	.contenedor_prod{
+		padding: 0px 0px 10px 0px;
+		float:left;
+		width: 313px;
+		height: 782px;
+	}
+
+	.img_prod{
+		float: left;
+		width: 131px;
+		margin: 23px 23px 21px 89px;
+	}
+
+	.titulo_prod{
+		font-size: 50px;
+		color: #FFF;
+	}
+
+	.descripcion_prod{
+		font-size:48px;
+	}
+
+	.tbl_prod{
+		margin-left: 19px;
+		width: 260px;
+	}
+
+	.cerrar_prod{
+		float: right;
+		cursor:pointer;
+		background: url(../img/CERRAR.png);
+		height: 38px;
+		width: 38px;
+		margin: 10px 10px 0px 0px;
+	}
+
 }
 
     .styled-select select {

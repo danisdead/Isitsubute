@@ -970,6 +970,13 @@ label.custom-select {
 	.vertical_overlay p{
 		font-size:36px;
 	}
+	.scroll-ingredientes{
+		height: 200px;
+		margin-bottom:10px;
+	}
+	.scroll-instrucciones{
+		height: 230px;
+	}
 }
 
     .styled-select select {

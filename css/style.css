@@ -771,13 +771,13 @@ label.custom-select {
 		color: #FFF;
 	}
 
-	.descripcion_prod{
-		font-size:48px;
+	.descripcion_prod p{
+		font-size:50px;
 	}
 
 	.tbl_prod{
 		margin-left: 19px;
-		width: 260px;
+		width: 250px;
 	}
 
 	.cerrar_prod{

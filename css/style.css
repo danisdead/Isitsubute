@@ -789,14 +789,16 @@ label.custom-select {
 		display:none
 	}
 	.scroll-ingredientes{
-		height: 30px;
+		height: 50px;
 		margin-bottom:10px;
 	}
 	.scroll-instrucciones{
-		height: 50px;
+		height: 70px;
 	}
 	#img_receta{
-		width:10px;
+		width:200px;
+		padding-top:0px;
+		padding-bottom:0px;
 	}
 
 }

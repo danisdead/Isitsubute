@@ -840,14 +840,14 @@ label.custom-select {
 	.contenedor_prod{
 		padding: 0px 0px 10px 0px;
 		float:left;
-		width: 313px;
+		width: 213px;
 		height: 782px;
 	}
 
 	.img_prod{
 		float: left;
 		width: 80px;
-		margin: 23px 23px 21px 89px;
+		margin: 23px 0px 21px 89px;
 	}
 
 	.titulo_prod{
@@ -861,7 +861,7 @@ label.custom-select {
 
 	.tbl_prod{
 		margin-left: 19px;
-		width: 160px;
+		width: 140px;
 	}
 
 	.cerrar_prod{
@@ -873,7 +873,7 @@ label.custom-select {
 		margin: 10px 10px 0px 0px;
 	}
 
-	
+
 
 
 }

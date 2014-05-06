@@ -539,13 +539,13 @@ label.custom-select {
 	overflow: scroll;
 }
 .vertical_overlay h3{
-	font-size:72px;
+	font-size:68px;
 }
 .vertical_overlay h4{
-	font-size:66px;
+	font-size:64px;
 }
 .vertical_overlay p{
-	font-size:56px;
+	font-size:54px;
 }
 .vertical_overlay #img_receta{
 	padding-top:20px;
@@ -745,6 +745,13 @@ label.custom-select {
 		left: 50%;
 		display:none
 	}
+	.scroll-ingredientes{
+		height: 200px;
+		margin-bottom:15px;
+	}
+	.scroll-instrucciones{
+		height: 220px;
+	}
 
 }
 /*iPad Only*/
@@ -765,13 +772,13 @@ label.custom-select {
 		padding:5px;
 	}
 	.vertical_overlay h3{
-		font-size:32px;
+		font-size:28px;
 	}
 	.vertical_overlay h4{
 		font-size:26px;
 	}
 	.vertical_overlay p{
-		font-size:16px;
+		font-size:18px;
 	}
 	#overlay_recetas{
 		position: fixed;
@@ -781,6 +788,17 @@ label.custom-select {
 		left: 50%;
 		display:none
 	}
+	.scroll-ingredientes{
+		height: 30px;
+		margin-bottom:10px;
+	}
+	.scroll-instrucciones{
+		height: 50px;
+	}
+	#img_receta{
+		width:10px;
+	}
+
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.content {

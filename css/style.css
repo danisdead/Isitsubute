@@ -993,12 +993,14 @@ label.custom-select {
 		height:105px;
 		width:105px;
 	}
+
 	#original_plus{
 		top:-780px;
 		left:120px;
 		height:105px;
 		width:105px;
 	}
+
 	#vuelve_plus{
 		top:-710px;
 		left:370px;
@@ -1010,6 +1012,7 @@ label.custom-select {
 	   outline: none;
 	   border: none;
 	}
+	
 	#overlay_recetas{
 		height: 400px;
 		position: fixed;

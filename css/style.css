@@ -789,6 +789,12 @@ label.custom-select {
 		margin: 10px 10px 0px 0px;
 	}
 
+	.scroll-pane{
+		height: 800px; 
+		width: 300px;
+	}
+
+
 }
 /*iPad Only*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -847,7 +853,7 @@ label.custom-select {
 	.img_prod{
 		float: left;
 		width: 80px;
-		margin: 23px 0px 21px 89px;
+		margin: 23px 40px 21px 89px;
 	}
 
 	.titulo_prod{
@@ -873,10 +879,12 @@ label.custom-select {
 		margin: 10px 10px 0px 0px;
 	}
 
-
-
+	.scroll-pane{
+		height: 400px;
+	}
 
 }
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	.content {
 		width:100%;
@@ -978,24 +986,33 @@ label.custom-select {
 		font-size:100px;
 		width:100%;
 	}
+
 	#camaron_plus{
 		top:-740px;
 		left:100px;
 		height:105px;
 		width:105px;
 	}
+
 	#original_plus{
 		top:-780px;
 		left:120px;
 		height:105px;
 		width:105px;
 	}
+
 	#vuelve_plus{
 		top:-710px;
 		left:370px;
 		height:105px;
 		width:105px;
 	}
+
+	#camaron_plus, #original_plus, #vuelve_plus{
+	   outline: none;
+	   border: none;
+	}
+	
 	#overlay_recetas{
 		height: 400px;
 		position: fixed;

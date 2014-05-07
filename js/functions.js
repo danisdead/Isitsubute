@@ -6,12 +6,12 @@ $(document).ready(function(){
 	var overlay2 = $('<div>').attr('id', 'overlay_recetas');   // Overlay Recetas.	
 
 	if(resolution_width <= '768'){
-
+		overlay2.css({'top' : '60px', 'display' : 'none', 'width' : '90%', 'left' : '45%'});
 		if(navigator.platform.indexOf("iPad") != -1){
 				overlay.css({'height' : '80%', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'background-size' : 'cover' , 'position': 'fixed', 'top' : '40px', 'margin' : '8% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
 		}else{
 				overlay.css({'height' : '900px', 'background' : 'url("img/TOOLTIP_PATTERN.png") repeat-x', 'background-size' : 'cover' , 'position': 'fixed', 'top' : '40px', 'margin' : '10% 0 0 -40%', 'z-index' : '2', 'width': '80%', 'left' : '50%', 'display' : 'none'});
-				overlay2.css({'top' : '60px', 'display' : 'none', 'width' : '90%', 'left' : '45%'});
+				
 		}
 
 

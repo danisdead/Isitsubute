@@ -853,7 +853,7 @@ label.custom-select {
 	.img_prod{
 		float: left;
 		width: 80px;
-		margin: 23px 40px 21px 89px;
+		margin: 23px 40px 21px 70px;
 	}
 
 	.titulo_prod{
@@ -866,7 +866,7 @@ label.custom-select {
 	}
 
 	.tbl_prod{
-		margin-left: 19px;
+		margin-left: 39px;
 		width: 140px;
 	}
 
@@ -880,7 +880,9 @@ label.custom-select {
 	}
 
 	.scroll-pane{
-		height: 400px;
+		height: 350px;
+		margin-top: 40px;
+		width: 500px;
 	}
 
 }

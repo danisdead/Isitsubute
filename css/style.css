@@ -789,10 +789,10 @@ label.custom-select {
 		margin: 10px 10px 0px 0px;
 	}
 
-	.scroll-pane{
+	/*.scroll-pane{
 		height: 800px; 
 		width: 300px;
-	}
+	}*/
 
 
 }
@@ -879,11 +879,11 @@ label.custom-select {
 		margin: 10px 10px 0px 0px;
 	}
 
-	.scroll-pane{
+	/*.scroll-pane{
 		height: 350px;
 		margin-top: 40px;
 		width: 500px;
-	}
+	}*/
 
 }
 
@@ -1064,7 +1064,13 @@ label.custom-select {
 	.vertical_overlay p{
 		font-size:36px;
 	}
-
+	.scroll-ingredientes{
+		height: 110px;
+		margin-bottom:10px;
+	} 
+	.scroll-instrucciones{
+		height: 130px;
+	}
 	.contenedor_prod{
 		padding: 0px 0px 10px 0px;
 		float:left;

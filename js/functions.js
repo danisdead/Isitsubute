@@ -215,7 +215,7 @@ $(document).ready(function(){
 	        container.fadeOut('medium').empty();
 	    }
 
-	   	if (!recetas.is(e.target)){
+	   	if (!container.is(e.target) && container.has(e.target).length === 0){
 	        recetas.fadeOut('medium').empty();
 	    }
 

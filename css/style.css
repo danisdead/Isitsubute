@@ -1081,26 +1081,25 @@ label.custom-select {
 		width: 38px;
 		margin: 10px 10px 0px 0px;
 	}
-
 }
 
     .styled-select select {
-   background: transparent;
-   width: 268px;
-   padding: 5px;
-   font-size: 16px;
-   line-height: 1;
-   border: 0;
-   border-radius: 0;
-   height: 34px;
-   -webkit-appearance: none;
+	   background: transparent;
+	   width: 268px;
+	   padding: 5px;
+	   font-size: 16px;
+	   line-height: 1;
+	   border: 0;
+	   border-radius: 0;
+	   height: 34px;
+	   -webkit-appearance: none;
    }
 
    .styled-select {
-   width: 240px;
-   height: 34px;
-   overflow: hidden;
-   background: url(../img/flechita.png) no-repeat right #ddd;
-   border: 1px solid #fff;
-   margin-left: 27px;
+	   width: 240px;
+	   height: 34px;
+	   overflow: hidden;
+	   background: url(../img/flechita.png) no-repeat right #ddd;
+	   border: 1px solid #fff;
+	   margin-left: 27px;
    }

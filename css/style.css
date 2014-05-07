@@ -828,7 +828,7 @@ label.custom-select {
 		margin: 10% 0% 0% -40%;
 		z-index: 2;
 		left: 50%;
-		display:none
+		display:none;
 	}
 	.scroll-ingredientes{
 		height: 50px;
